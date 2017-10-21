@@ -4,7 +4,8 @@
   "description": "pre-big bang damage calc. based on maplesaga",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --progress --colors"
   },
   "author": "Jung Oh <jung@jungoh.me>",
   "license": "MIT",
@@ -28,6 +29,7 @@
     "webpack": "^3.8.1"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }

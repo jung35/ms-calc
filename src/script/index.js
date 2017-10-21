@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import View from './View'
 
-render(<View />, document.getElementById('root'))
+ReactDOM.render(<View />, document.getElementById('root'))
