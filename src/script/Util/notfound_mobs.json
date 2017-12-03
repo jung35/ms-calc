@@ -1,0 +1,233 @@
+[
+  {
+    "id": 9410002,
+    "name": "Angry Stray Dog",
+    "level": 42,
+    "hp": 2300,
+    "avoid": 20
+  },
+  {
+    "id": 9410004,
+    "name": "Biker Monkey",
+    "level": 47,
+    "hp": 2800,
+    "avoid": 18
+  },
+  {
+    "id": 9410003,
+    "name": "Clown Monkey",
+    "level": 40,
+    "hp": 1850,
+    "avoid": 25
+  },
+  {
+    "id": 8140100,
+    "name": "Dark Yeti and Pepe",
+    "level": 82,
+    "hp": 29000,
+    "avoid": 30
+  },
+  {
+    "id": 8220000,
+    "name": "Eliza",
+    "level": 83,
+    "hp": 935000,
+    "avoid": 30
+  },
+  {
+    "id": 9400001,
+    "name": "Fire Raccoon",
+    "level": 30,
+    "hp": 900,
+    "avoid": 12
+  },
+  {
+    "id": 9400577,
+    "name": "Firebrand",
+    "level": 90,
+    "hp": 21000,
+    "avoid": 37
+  },
+  {
+    "id": 9400578,
+    "name": "Firebrand",
+    "level": 90,
+    "hp": 45000,
+    "avoid": 37
+  },
+  {
+    "id": 8810018,
+    "name": "Horntail",
+    "level": 160,
+    "hp": 2090000000,
+    "avoid": 0
+  },
+  {
+    "id": 3230300,
+    "name": "Jr. Boogie 1",
+    "level": 35,
+    "hp": 1700,
+    "avoid": 27
+  },
+  {
+    "id": 3230301,
+    "name": "Jr. Boogie 2",
+    "level": 35,
+    "hp": 1700,
+    "avoid": 27
+  },
+  {
+    "id": 9400583,
+    "name": "Leprechaun",
+    "level": 45,
+    "hp": 2800,
+    "avoid": 20
+  },
+  {
+    "id": 9400584,
+    "name": "Leprechaun",
+    "level": 45,
+    "hp": 45,
+    "avoid": 0
+  },
+  {
+    "id": 9409012,
+    "name": "Mama Monkey",
+    "level": 112,
+    "hp": 90000,
+    "avoid": 39
+  },
+  {
+    "id": 2100108,
+    "name": "Meerkat",
+    "level": 29,
+    "hp": 780,
+    "avoid": 10
+  },
+  {
+    "id": 9400587,
+    "name": "Phantom Tree",
+    "level": 50,
+    "hp": 3500,
+    "avoid": 10
+  },
+  {
+    "id": 9400588,
+    "name": "Phantom Tree",
+    "level": 50,
+    "hp": 3500,
+    "avoid": 10
+  },
+  {
+    "id": 9300180,
+    "name": "Poison Golem 1",
+    "level": 130,
+    "hp": 18375000,
+    "avoid": 18
+  },
+  {
+    "id": 9300181,
+    "name": "Poison Golem 2",
+    "level": 130,
+    "hp": 18375000,
+    "avoid": 18
+  },
+  {
+    "id": 9300182,
+    "name": "Poison Golem 3",
+    "level": 130,
+    "hp": 18375000,
+    "avoid": 18
+  },
+  {
+    "id": 9420002,
+    "name": "Python",
+    "level": 60,
+    "hp": 6000,
+    "avoid": 22
+  },
+  {
+    "id": 9420003,
+    "name": "Red Lizard",
+    "level": 40,
+    "hp": 1920,
+    "avoid": 15
+  },
+  {
+    "id": 9420544,
+    "name": "Scarlion &amp; Targa",
+    "level": 140,
+    "hp": 800000000,
+    "avoid": 20
+  },
+  {
+    "id": 6400002,
+    "name": "Separated Dark Yeti",
+    "level": 68,
+    "hp": 13000,
+    "avoid": 26
+  },
+  {
+    "id": 6300002,
+    "name": "Separated Yeti",
+    "level": 65,
+    "hp": 11000,
+    "avoid": 24
+  },
+  {
+    "id": 9410000,
+    "name": "Stray Dog",
+    "level": 23,
+    "hp": 500,
+    "avoid": 7
+  },
+  {
+    "id": 9410001,
+    "name": "Stylish Stray Dog",
+    "level": 25,
+    "hp": 550,
+    "avoid": 8
+  },
+  {
+    "id": 9500179,
+    "name": "Transformed Snack Bar",
+    "level": 40,
+    "hp": 5810,
+    "avoid": 0
+  },
+  {
+    "id": 9300027,
+    "name": "Troubling",
+    "level": 23,
+    "hp": 1000,
+    "avoid": 8
+  },
+  {
+    "id": 9409011,
+    "name": "Wild Monkey",
+    "level": 120,
+    "hp": 115000,
+    "avoid": 41
+  },
+  {
+    "id": 9420004,
+    "name": "Yellow Lizard",
+    "level": 25,
+    "hp": 500,
+    "avoid": 8
+  },
+  {
+    "id": 7130102,
+    "name": "Yeti and Pepe",
+    "level": 78,
+    "hp": 20000,
+    "avoid": 30
+  },
+  {
+    "id": 8800002,
+    "name": "Zakum",
+    "level": 140,
+    "hp": 643100000,
+    "avoid": 16
+  }
+]

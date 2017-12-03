@@ -1,3 +1,3 @@
-import FormData from './formdata'
+import Monster from './monster'
 
-export default {FormData}
+export default {Monster}

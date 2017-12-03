@@ -4,20 +4,6 @@ import Jobs from '../Jobs'
 
 import JobSelection from './jobselection'
 
-const jobList = _.map(Jobs, obj => {
-  return new obj()
-})
-
-const queryString = (name) => {
-  const url = window.location.href
-  name = name.replace(/[\[\]]/g, "\\$&")
-  const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`)
-  const results = regex.exec(url)
-  if (!results) return null
-  if (!results[2]) return ''
-  return decodeURIComponent(results[2].replace(/\+/g, " "))
-}
-
 export default class View extends Component {
   constructor(props) {
     super(props)
@@ -60,4 +46,18 @@ export default class View extends Component {
       <JobSelection selectJob={selectJob} redoJobSelection={redoJobSelection} jobList={jobList} job={this.state.job} />
     </div>
   }
+}
+
+const jobList = _.map(Jobs, obj => {
+  return new obj()
+})
+
+const queryString = (name) => {
+  const url = window.location.href
+  name = name.replace(/[\[\]]/g, "\\$&")
+  const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`)
+  const results = regex.exec(url)
+  if (!results) return null
+  if (!results[2]) return ''
+  return decodeURIComponent(results[2].replace(/\+/g, " "))
 }

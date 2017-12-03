@@ -1,0 +1,8202 @@
+[
+  {
+    "id": 9400404,
+    "name": "Ashigaru",
+    "level": 30,
+    "hp": 950,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 50
+    }
+  },
+  {
+    "id": 1130100,
+    "name": "Axe Stump",
+    "level": 17,
+    "hp": 300,
+    "avoid": 5,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 10
+    }
+  },
+  {
+    "id": 9420036,
+    "name": "Axe Visitor",
+    "level": 120,
+    "hp": 115000,
+    "avoid": 40,
+    "magic": {
+      "fire": 2,
+      "poison": -1,
+      "ice": 0,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 169,
+      "magic": 150
+    }
+  },
+  {
+    "id": 9400573,
+    "name": "Baby typhon",
+    "level": 40,
+    "hp": 100,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 8140500,
+    "name": "Bain",
+    "level": 90,
+    "hp": 45000,
+    "avoid": 38,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 835,
+      "magic": 505
+    }
+  },
+  {
+    "id": 4230116,
+    "name": "Barnard Gray",
+    "level": 40,
+    "hp": 1930,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 160
+    }
+  },
+  {
+    "id": 9420506,
+    "name": "Batoo",
+    "level": 23,
+    "hp": 450,
+    "avoid": 8,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  },
+  {
+    "id": 7130002,
+    "name": "Beetle",
+    "level": 72,
+    "hp": 15200,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 335,
+      "magic": 265
+    }
+  },
+  {
+    "id": 2100105,
+    "name": "Bellamoa",
+    "level": 23,
+    "hp": 500,
+    "avoid": 9,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 5120501,
+    "name": "Bellflower Root",
+    "level": 53,
+    "hp": 4200,
+    "avoid": 16,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 210
+    }
+  },
+  {
+    "id": 9420514,
+    "name": "Berserkie",
+    "level": 85,
+    "hp": 32000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 750,
+      "magic": 160
+    }
+  },
+  {
+    "id": 9400004,
+    "name": "Big Cloud Fox",
+    "level": 45,
+    "hp": 2600,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 125,
+      "magic": 175
+    }
+  },
+  {
+    "id": 9400575,
+    "name": "Bigfoot",
+    "level": 110,
+    "hp": 32000000,
+    "avoid": 37,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 3,
+      "lightning": 1,
+      "holy": 3,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1400,
+      "magic": 1400
+    }
+  },
+  {
+    "id": 9420502,
+    "name": "Biner",
+    "level": 18,
+    "hp": 280,
+    "avoid": 5,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 10
+    }
+  },
+  {
+    "id": 8140110,
+    "name": "Birk",
+    "level": 85,
+    "hp": 32000,
+    "avoid": 27,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 760,
+      "magic": 465
+    }
+  },
+  {
+    "id": 9400014,
+    "name": "Black Crow",
+    "level": 115,
+    "hp": 35000000,
+    "avoid": 39,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1400,
+      "magic": 1300
+    }
+  },
+  {
+    "id": 8140101,
+    "name": "Black Kentaurus",
+    "level": 88,
+    "hp": 37000,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 495
+    }
+  },
+  {
+    "id": 4230502,
+    "name": "Black Porky",
+    "level": 43,
+    "hp": 2400,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 160
+    }
+  },
+  {
+    "id": 3210205,
+    "name": "Black Ratz",
+    "level": 34,
+    "hp": 1150,
+    "avoid": 14,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 4230109,
+    "name": "Block Golem",
+    "level": 42,
+    "hp": 2400,
+    "avoid": 12,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 90
+    }
+  },
+  {
+    "id": 3230302,
+    "name": "Bloctopus",
+    "level": 35,
+    "hp": 1300,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 3,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 130
+    }
+  },
+  {
+    "id": 8140002,
+    "name": "Blood Harp",
+    "level": 83,
+    "hp": 30000,
+    "avoid": 27,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 465
+    }
+  },
+  {
+    "id": 8140700,
+    "name": "Blue Dragon Turtle",
+    "level": 90,
+    "hp": 40000,
+    "avoid": 37,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 820,
+      "magic": 480
+    }
+  },
+  {
+    "id": 4230503,
+    "name": "Blue Flower Serpent",
+    "level": 45,
+    "hp": 2550,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 150
+    }
+  },
+  {
+    "id": 8140103,
+    "name": "Blue Kentaurus",
+    "level": 88,
+    "hp": 37000,
+    "avoid": 28,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 495
+    }
+  },
+  {
+    "id": 7130401,
+    "name": "Blue King Goblin",
+    "level": 70,
+    "hp": 25000,
+    "avoid": 15,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 280,
+      "magic": 280
+    }
+  },
+  {
+    "id": 9400205,
+    "name": "Blue Mushmom",
+    "level": 90,
+    "hp": 200000,
+    "avoid": 64,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 810,
+      "magic": 520
+    }
+  },
+  {
+    "id": 2220100,
+    "name": "Blue Mushroom",
+    "level": 20,
+    "hp": 350,
+    "avoid": 7,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 60
+    }
+  },
+  {
+    "id": 4300001,
+    "name": "Blue Perfume",
+    "level": 40,
+    "hp": 1800,
+    "avoid": 18,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 150
+    }
+  },
+  {
+    "id": 100101,
+    "name": "Blue Snail",
+    "level": 2,
+    "hp": 15,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 8150301,
+    "name": "Blue Wyvern",
+    "level": 101,
+    "hp": 57000,
+    "avoid": 38,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 570
+    }
+  },
+  {
+    "id": 9400551,
+    "name": "Bob",
+    "level": 2,
+    "hp": 770,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 9400112,
+    "name": "Bodyguard A",
+    "level": 152,
+    "hp": 500000000,
+    "avoid": 40,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 3600,
+      "magic": 1300
+    }
+  },
+  {
+    "id": 9400113,
+    "name": "Bodyguard B",
+    "level": 155,
+    "hp": 500000000,
+    "avoid": 50,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 3100,
+      "magic": 2000
+    }
+  },
+  {
+    "id": 8140600,
+    "name": "Bone Fish",
+    "level": 92,
+    "hp": 42500,
+    "avoid": 38,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 840,
+      "magic": 540
+    }
+  },
+  {
+    "id": 6130104,
+    "name": "Boogie",
+    "level": 35,
+    "hp": 14800,
+    "avoid": 35,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 2,
+      "dark": 0,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 300
+    }
+  },
+  {
+    "id": 9400547,
+    "name": "Boomer",
+    "level": 27,
+    "hp": 700,
+    "avoid": 10,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 45,
+      "magic": 75
+    }
+  },
+  {
+    "id": 9420538,
+    "name": "Booper Scarlion",
+    "level": 82,
+    "hp": 28000,
+    "avoid": 29,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 680,
+      "magic": 480
+    }
+  },
+  {
+    "id": 8140703,
+    "name": "Brexton",
+    "level": 97,
+    "hp": 55000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 570
+    }
+  },
+  {
+    "id": 3000005,
+    "name": "Brown Teddy",
+    "level": 30,
+    "hp": 950,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 38,
+      "magic": 40
+    }
+  },
+  {
+    "id": 2230109,
+    "name": "Bubble Fish",
+    "level": 28,
+    "hp": 740,
+    "avoid": 10,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 1210103,
+    "name": "Bubbling",
+    "level": 15,
+    "hp": 240,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 50
+    }
+  },
+  {
+    "id": 6300100,
+    "name": "Buffoon",
+    "level": 74,
+    "hp": 16000,
+    "avoid": 27,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 340,
+      "magic": 330
+    }
+  },
+  {
+    "id": 6130200,
+    "name": "Buffy",
+    "level": 61,
+    "hp": 7400,
+    "avoid": 23,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 213,
+      "magic": 229
+    }
+  },
+  {
+    "id": 2100103,
+    "name": "Cactus",
+    "level": 25,
+    "hp": 550,
+    "avoid": 9,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 9420513,
+    "name": "Capt. Latanica",
+    "level": 100,
+    "hp": 2000000,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 900
+    }
+  },
+  {
+    "id": 7130104,
+    "name": "Captain",
+    "level": 70,
+    "hp": 15000,
+    "avoid": 26,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 260
+    }
+  },
+  {
+    "id": 9400409,
+    "name": "Castellan Toad",
+    "level": 180,
+    "hp": 2450000000,
+    "avoid": 45,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 4300,
+      "magic": 2900
+    }
+  },
+  {
+    "id": 5120001,
+    "name": "Cellion",
+    "level": 53,
+    "hp": 4200,
+    "avoid": 25,
+    "magic": {
+      "fire": 2,
+      "poison": -1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 210
+    }
+  },
+  {
+    "id": 7130001,
+    "name": "Cerebes",
+    "level": 72,
+    "hp": 15200,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 320,
+      "magic": 265
+    }
+  },
+  {
+    "id": 8800102,
+    "name": "Chaos Zakum",
+    "level": 140,
+    "hp": 3856800000,
+    "avoid": 32,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 1000,
+      "magic": 1100
+    }
+  },
+  {
+    "id": 9420534,
+    "name": "Charmer",
+    "level": 65,
+    "hp": 9800,
+    "avoid": 24,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 240
+    }
+  },
+  {
+    "id": 4300011,
+    "name": "Cheap Amplifier",
+    "level": 48,
+    "hp": 2800,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 195
+    }
+  },
+  {
+    "id": 3400000,
+    "name": "Cherry Bubble Tea",
+    "level": 35,
+    "hp": 1400,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 115
+    }
+  },
+  {
+    "id": 4240000,
+    "name": "Chief Gray",
+    "level": 49,
+    "hp": 9000,
+    "avoid": 25,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 250
+    }
+  },
+  {
+    "id": 8200004,
+    "name": "Chief Memory Guardian",
+    "level": 101,
+    "hp": 59000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 910,
+      "magic": 540
+    }
+  },
+  {
+    "id": 8200012,
+    "name": "Chief Oblivion Guardian",
+    "level": 131,
+    "hp": 129000,
+    "avoid": 47,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1060,
+      "magic": 680
+    }
+  },
+  {
+    "id": 8200008,
+    "name": "Chief Qualm Guardian",
+    "level": 116,
+    "hp": 129000,
+    "avoid": 40,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 990,
+      "magic": 590
+    }
+  },
+  {
+    "id": 4230500,
+    "name": "Chipmunk",
+    "level": 40,
+    "hp": 1900,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 135,
+      "magic": 100
+    }
+  },
+  {
+    "id": 3230307,
+    "name": "Chirppy",
+    "level": 31,
+    "hp": 800,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 50
+    }
+  },
+  {
+    "id": 9420527,
+    "name": "Chlorotrap",
+    "level": 45,
+    "hp": 2600,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 180
+    }
+  },
+  {
+    "id": 3230306,
+    "name": "Chronos",
+    "level": 37,
+    "hp": 1750,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 120
+    }
+  },
+  {
+    "id": 9400401,
+    "name": "Chunin",
+    "level": 50,
+    "hp": 4200,
+    "avoid": 40,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 115,
+      "magic": 180
+    }
+  },
+  {
+    "id": 2230106,
+    "name": "Cico",
+    "level": 25,
+    "hp": 550,
+    "avoid": 8,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  },
+  {
+    "id": 4230104,
+    "name": "Clang",
+    "level": 48,
+    "hp": 3000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 250
+    }
+  },
+  {
+    "id": 9400002,
+    "name": "Cloud Fox",
+    "level": 30,
+    "hp": 920,
+    "avoid": 12,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 80,
+      "magic": 70
+    }
+  },
+  {
+    "id": 4230100,
+    "name": "Cold Eye",
+    "level": 40,
+    "hp": 2000,
+    "avoid": 15,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 80,
+      "magic": 80
+    }
+  },
+  {
+    "id": 8150101,
+    "name": "Cold Shark",
+    "level": 102,
+    "hp": 58500,
+    "avoid": 38,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 855,
+      "magic": 575
+    }
+  },
+  {
+    "id": 7130103,
+    "name": "Commander Skeleton",
+    "level": 73,
+    "hp": 15300,
+    "avoid": 32,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 330,
+      "magic": 300
+    }
+  },
+  {
+    "id": 5130107,
+    "name": "Coolie Zombie",
+    "level": 57,
+    "hp": 4500,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 180
+    }
+  },
+  {
+    "id": 4130100,
+    "name": "Copper Drake",
+    "level": 45,
+    "hp": 2700,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 100
+    }
+  },
+  {
+    "id": 9400582,
+    "name": "Crimson Guardian",
+    "level": 120,
+    "hp": 120000,
+    "avoid": 40,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": 2,
+      "lightning": -1,
+      "holy": 3,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1000,
+      "magic": 800
+    }
+  },
+  {
+    "id": 9400585,
+    "name": "Crimson Tree",
+    "level": 75,
+    "hp": 3500,
+    "avoid": 10,
+    "magic": {
+      "fire": 0,
+      "poison": 2,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 200
+    }
+  },
+  {
+    "id": 9400586,
+    "name": "Crimson Tree",
+    "level": 75,
+    "hp": 3500,
+    "avoid": 10,
+    "magic": {
+      "fire": 0,
+      "poison": 2,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 200
+    }
+  },
+  {
+    "id": 5130103,
+    "name": "Croco",
+    "level": 52,
+    "hp": 3800,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 80
+    }
+  },
+  {
+    "id": 9400000,
+    "name": "Crow",
+    "level": 25,
+    "hp": 550,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 30
+    }
+  },
+  {
+    "id": 2220110,
+    "name": "Crying Blue Mushroom",
+    "level": 20,
+    "hp": 350,
+    "avoid": 7,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 60
+    }
+  },
+  {
+    "id": 9400516,
+    "name": "Crystal Boar",
+    "level": 40,
+    "hp": 1900,
+    "avoid": 15,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 45
+    }
+  },
+  {
+    "id": 3230100,
+    "name": "Curse Eye",
+    "level": 35,
+    "hp": 1250,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 45,
+      "magic": 70
+    }
+  },
+  {
+    "id": 9400635,
+    "name": "Cursed Frog",
+    "level": 35,
+    "hp": 50000,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 150
+    }
+  },
+  {
+    "id": 2130100,
+    "name": "Dark Axe Stump",
+    "level": 22,
+    "hp": 550,
+    "avoid": 7,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 20
+    }
+  },
+  {
+    "id": 8150201,
+    "name": "Dark Cornian",
+    "level": 105,
+    "hp": 67000,
+    "avoid": 45,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 500
+    }
+  },
+  {
+    "id": 6230601,
+    "name": "Dark Drake",
+    "level": 68,
+    "hp": 13000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 205,
+      "magic": 250
+    }
+  },
+  {
+    "id": 9420529,
+    "name": "Dark Fission",
+    "level": 52,
+    "hp": 3700,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 255
+    }
+  },
+  {
+    "id": 5130105,
+    "name": "Dark Jr. Yeti",
+    "level": 56,
+    "hp": 4400,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 190
+    }
+  },
+  {
+    "id": 8140300,
+    "name": "Dark Klock",
+    "level": 76,
+    "hp": 18000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 380,
+      "magic": 400
+    }
+  },
+  {
+    "id": 5300001,
+    "name": "Dark Leatty",
+    "level": 33,
+    "hp": 1100,
+    "avoid": 15,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 4130102,
+    "name": "Dark Nependeath",
+    "level": 47,
+    "hp": 2700,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 220
+    }
+  },
+  {
+    "id": 6230200,
+    "name": "Dark Pepe",
+    "level": 64,
+    "hp": 7800,
+    "avoid": 31,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 220,
+      "magic": 240
+    }
+  },
+  {
+    "id": 7130501,
+    "name": "Dark Rash",
+    "level": 74,
+    "hp": 15500,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 285,
+      "magic": 295
+    }
+  },
+  {
+    "id": 5130102,
+    "name": "Dark Stone Golem",
+    "level": 58,
+    "hp": 4800,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 200
+    }
+  },
+  {
+    "id": 1110101,
+    "name": "Dark Stump",
+    "level": 10,
+    "hp": 250,
+    "avoid": 0,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 10
+    }
+  },
+  {
+    "id": 8150302,
+    "name": "Dark Wyvern",
+    "level": 103,
+    "hp": 60000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 580
+    }
+  },
+  {
+    "id": 6400000,
+    "name": "Dark Yeti",
+    "level": 68,
+    "hp": 13000,
+    "avoid": 26,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 270
+    }
+  },
+  {
+    "id": 7130010,
+    "name": "Death Teddy",
+    "level": 85,
+    "hp": 32000,
+    "avoid": 27,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 465
+    }
+  },
+  {
+    "id": 6400100,
+    "name": "Deep Buffoon",
+    "level": 77,
+    "hp": 19000,
+    "avoid": 28,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 400,
+      "magic": 410
+    }
+  },
+  {
+    "id": 3220001,
+    "name": "Deo",
+    "level": 38,
+    "hp": 77000,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 120
+    }
+  },
+  {
+    "id": 4230600,
+    "name": "Desert Giant",
+    "level": 40,
+    "hp": 1800,
+    "avoid": 17,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 160
+    }
+  },
+  {
+    "id": 2100100,
+    "name": "Desert Rabbit (F)",
+    "level": 20,
+    "hp": 350,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 20
+    }
+  },
+  {
+    "id": 2100101,
+    "name": "Desert Rabbit (M)",
+    "level": 21,
+    "hp": 400,
+    "avoid": 9,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 25,
+      "magic": 30
+    }
+  },
+  {
+    "id": 8220004,
+    "name": "Dodo",
+    "level": 121,
+    "hp": 5900000,
+    "avoid": 42,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 950,
+      "magic": 1050
+    }
+  },
+  {
+    "id": 5130100,
+    "name": "Drake",
+    "level": 50,
+    "hp": 3200,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 180
+    }
+  },
+  {
+    "id": 9400013,
+    "name": "Dreamy Ghost",
+    "level": 100,
+    "hp": 68000,
+    "avoid": 34,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 810,
+      "magic": 580
+    }
+  },
+  {
+    "id": 3230400,
+    "name": "Drumming Bunny",
+    "level": 30,
+    "hp": 950,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 38,
+      "magic": 50
+    }
+  },
+  {
+    "id": 7130003,
+    "name": "Dual Beetle",
+    "level": 76,
+    "hp": 18000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 400,
+      "magic": 400
+    }
+  },
+  {
+    "id": 8140111,
+    "name": "Dual Birk",
+    "level": 88,
+    "hp": 37000,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 480
+    }
+  },
+  {
+    "id": 7160000,
+    "name": "Dual Ghost Pirate",
+    "level": 87,
+    "hp": 35000,
+    "avoid": 28,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 775,
+      "magic": 470
+    }
+  },
+  {
+    "id": 9420519,
+    "name": "Duku",
+    "level": 115,
+    "hp": 90000,
+    "avoid": 39,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 820,
+      "magic": 720
+    }
+  },
+  {
+    "id": 6220000,
+    "name": "Dyle",
+    "level": 65,
+    "hp": 31000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 220
+    }
+  },
+  {
+    "id": 2100106,
+    "name": "Ear Plug Plead",
+    "level": 24,
+    "hp": 550,
+    "avoid": 9,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 35
+    }
+  },
+  {
+    "id": 9400580,
+    "name": "Elderwraith",
+    "level": 95,
+    "hp": 51000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 3,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 940,
+      "magic": 550
+    }
+  },
+  {
+    "id": 9400543,
+    "name": "Electrophant",
+    "level": 41,
+    "hp": 1600,
+    "avoid": 28,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 3,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 110
+    }
+  },
+  {
+    "id": 9420528,
+    "name": "Emo Slime",
+    "level": 47,
+    "hp": 2850,
+    "avoid": 24,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 180
+    }
+  },
+  {
+    "id": 2230100,
+    "name": "Evil Eye",
+    "level": 27,
+    "hp": 720,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 70
+    }
+  },
+  {
+    "id": 9400100,
+    "name": "Extra A",
+    "level": 45,
+    "hp": 2800,
+    "avoid": 22,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 145,
+      "magic": 125
+    }
+  },
+  {
+    "id": 9400101,
+    "name": "Extra B",
+    "level": 47,
+    "hp": 2800,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 110
+    }
+  },
+  {
+    "id": 9400102,
+    "name": "Extra C",
+    "level": 50,
+    "hp": 3100,
+    "avoid": 20,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 185,
+      "magic": 170
+    }
+  },
+  {
+    "id": 9400103,
+    "name": "Extra D",
+    "level": 72,
+    "hp": 15100,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 320,
+      "magic": 205
+    }
+  },
+  {
+    "id": 8200000,
+    "name": "Eye of Time",
+    "level": 80,
+    "hp": 24000,
+    "avoid": 30,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 650,
+      "magic": 450
+    }
+  },
+  {
+    "id": 3000001,
+    "name": "Fairy 1",
+    "level": 30,
+    "hp": 800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 85,
+      "magic": 105
+    }
+  },
+  {
+    "id": 3000002,
+    "name": "Fairy 2",
+    "level": 30,
+    "hp": 800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 85,
+      "magic": 105
+    }
+  },
+  {
+    "id": 3000003,
+    "name": "Fairy 3",
+    "level": 30,
+    "hp": 800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 85,
+      "magic": 105
+    }
+  },
+  {
+    "id": 3000004,
+    "name": "Fairy 4",
+    "level": 30,
+    "hp": 800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 85,
+      "magic": 105
+    }
+  },
+  {
+    "id": 4300012,
+    "name": "Fancy Amplifier",
+    "level": 49,
+    "hp": 3000,
+    "avoid": 23,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 185,
+      "magic": 200
+    }
+  },
+  {
+    "id": 5220002,
+    "name": "Faust",
+    "level": 50,
+    "hp": 535000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 150
+    }
+  },
+  {
+    "id": 9400121,
+    "name": "Female Boss",
+    "level": 130,
+    "hp": 75000000,
+    "avoid": 43,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 3000,
+      "magic": 1250
+    }
+  },
+  {
+    "id": 4300007,
+    "name": "Female Mannequin",
+    "level": 44,
+    "hp": 2400,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 180
+    }
+  },
+  {
+    "id": 3210100,
+    "name": "Fire Boar",
+    "level": 32,
+    "hp": 1000,
+    "avoid": 10,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 40
+    }
+  },
+  {
+    "id": 5200002,
+    "name": "Fire Sentinel",
+    "level": 30,
+    "hp": 900,
+    "avoid": 12,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 275,
+      "magic": 85
+    }
+  },
+  {
+    "id": 9400542,
+    "name": "Fire Tusk",
+    "level": 36,
+    "hp": 1450,
+    "avoid": 10,
+    "magic": {
+      "fire": 3,
+      "poison": 2,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 70,
+      "magic": 70
+    }
+  },
+  {
+    "id": 5100002,
+    "name": "Firebomb",
+    "level": 51,
+    "hp": 3600,
+    "avoid": 28,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 255,
+      "magic": 205
+    }
+  },
+  {
+    "id": 2230200,
+    "name": "Flower Fish",
+    "level": 29,
+    "hp": 790,
+    "avoid": 10,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 80,
+      "magic": 85
+    }
+  },
+  {
+    "id": 4230107,
+    "name": "Flyeye",
+    "level": 41,
+    "hp": 1600,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 110
+    }
+  },
+  {
+    "id": 4230124,
+    "name": "Freezer",
+    "level": 42,
+    "hp": 2300,
+    "avoid": 20,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 160
+    }
+  },
+  {
+    "id": 9420501,
+    "name": "Freezer",
+    "level": 38,
+    "hp": 1900,
+    "avoid": 18,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 160
+    }
+  },
+  {
+    "id": 9420001,
+    "name": "Frog",
+    "level": 8,
+    "hp": 75,
+    "avoid": 1,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 10
+    }
+  },
+  {
+    "id": 9420536,
+    "name": "Froscola",
+    "level": 72,
+    "hp": 15200,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 320,
+      "magic": 260
+    }
+  },
+  {
+    "id": 9420540,
+    "name": "Gallopera",
+    "level": 94,
+    "hp": 43000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 820,
+      "magic": 540
+    }
+  },
+  {
+    "id": 8160000,
+    "name": "Gatekeeper",
+    "level": 108,
+    "hp": 78000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 650
+    }
+  },
+  {
+    "id": 9400400,
+    "name": "Genin",
+    "level": 25,
+    "hp": 600,
+    "avoid": 14,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 35
+    }
+  },
+  {
+    "id": 7140000,
+    "name": "Ghost Pirate",
+    "level": 83,
+    "hp": 30000,
+    "avoid": 27,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 710,
+      "magic": 460
+    }
+  },
+  {
+    "id": 1140100,
+    "name": "Ghost Stump",
+    "level": 19,
+    "hp": 330,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 15
+    }
+  },
+  {
+    "id": 8141100,
+    "name": "Gigantic Spirit Viking",
+    "level": 98,
+    "hp": 58000,
+    "avoid": 38,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 845,
+      "magic": 580
+    }
+  },
+  {
+    "id": 4230506,
+    "name": "Ginseng Jar",
+    "level": 48,
+    "hp": 2800,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 170
+    }
+  },
+  {
+    "id": 9400556,
+    "name": "Glutton Ghoul",
+    "level": 21,
+    "hp": 300,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 20
+    }
+  },
+  {
+    "id": 9400565,
+    "name": "Glutton Ghoul",
+    "level": 21,
+    "hp": 300,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 20
+    }
+  },
+  {
+    "id": 7130020,
+    "name": "Goby",
+    "level": 85,
+    "hp": 17000,
+    "avoid": 29,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 645,
+      "magic": 430
+    }
+  },
+  {
+    "id": 4300010,
+    "name": "Greatest Oldies",
+    "level": 47,
+    "hp": 2700,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 175,
+      "magic": 190
+    }
+  },
+  {
+    "id": 8150200,
+    "name": "Green Cornian",
+    "level": 100,
+    "hp": 56000,
+    "avoid": 45,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 500
+    }
+  },
+  {
+    "id": 7130601,
+    "name": "Green Hobi",
+    "level": 76,
+    "hp": 18000,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 400,
+      "magic": 350
+    }
+  },
+  {
+    "id": 7130402,
+    "name": "Green King Goblin",
+    "level": 70,
+    "hp": 25000,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 280,
+      "magic": 280
+    }
+  },
+  {
+    "id": 1110100,
+    "name": "Green Mushroom",
+    "level": 15,
+    "hp": 250,
+    "avoid": 5,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 12,
+      "magic": 40
+    }
+  },
+  {
+    "id": 2230104,
+    "name": "Green Trixter",
+    "level": 28,
+    "hp": 780,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 75,
+      "magic": 75
+    }
+  },
+  {
+    "id": 8180001,
+    "name": "Griffey",
+    "level": 105,
+    "hp": 3700000,
+    "avoid": 39,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 850
+    }
+  },
+  {
+    "id": 8143000,
+    "name": "Grim Phantom Watch",
+    "level": 99,
+    "hp": 60000,
+    "avoid": 38,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 3,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 570
+    }
+  },
+  {
+    "id": 5120500,
+    "name": "Grizzly",
+    "level": 56,
+    "hp": 4800,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 200
+    }
+  },
+  {
+    "id": 5120003,
+    "name": "Grupin",
+    "level": 53,
+    "hp": 4200,
+    "avoid": 25,
+    "magic": {
+      "fire": 0,
+      "poison": -1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 210
+    }
+  },
+  {
+    "id": 9400544,
+    "name": "Gryphon",
+    "level": 50,
+    "hp": 3300,
+    "avoid": 23,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 155,
+      "magic": 170
+    }
+  },
+  {
+    "id": 9420039,
+    "name": "Gunner Visitor",
+    "level": 120,
+    "hp": 123000,
+    "avoid": 40,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": -1,
+      "lightning": 0,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 128,
+      "magic": 150
+    }
+  },
+  {
+    "id": 7130004,
+    "name": "Hankie",
+    "level": 78,
+    "hp": 20000,
+    "avoid": 30,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 600,
+      "magic": 450
+    }
+  },
+  {
+    "id": 8140001,
+    "name": "Harp",
+    "level": 80,
+    "hp": 27000,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 650,
+      "magic": 450
+    }
+  },
+  {
+    "id": 9400549,
+    "name": "Headless Horseman",
+    "level": 101,
+    "hp": 3500000,
+    "avoid": 42,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 800
+    }
+  },
+  {
+    "id": 5130104,
+    "name": "Hector",
+    "level": 55,
+    "hp": 4600,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 120
+    }
+  },
+  {
+    "id": 3210206,
+    "name": "Helly",
+    "level": 36,
+    "hp": 1350,
+    "avoid": 17,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 85,
+      "magic": 105
+    }
+  },
+  {
+    "id": 7130600,
+    "name": "Hobi",
+    "level": 72,
+    "hp": 15000,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 330,
+      "magic": 260
+    }
+  },
+  {
+    "id": 5100003,
+    "name": "Hodori",
+    "level": 50,
+    "hp": 3800,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 180
+    }
+  },
+  {
+    "id": 5100005,
+    "name": "Hogul",
+    "level": 53,
+    "hp": 4500,
+    "avoid": 25,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 185,
+      "magic": 215
+    }
+  },
+  {
+    "id": 9400562,
+    "name": "Hoodoo",
+    "level": 60,
+    "hp": 6800,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 240,
+      "magic": 210
+    }
+  },
+  {
+    "id": 2110200,
+    "name": "Horny Mushroom",
+    "level": 22,
+    "hp": 300,
+    "avoid": 7,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 0
+    }
+  },
+  {
+    "id": 9400546,
+    "name": "I.AM.ROBOT",
+    "level": 44,
+    "hp": 2490,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 195
+    }
+  },
+  {
+    "id": 6230600,
+    "name": "Ice Drake",
+    "level": 64,
+    "hp": 7700,
+    "avoid": 25,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 230
+    }
+  },
+  {
+    "id": 5200001,
+    "name": "Ice Sentinel",
+    "level": 30,
+    "hp": 900,
+    "avoid": 12,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 275,
+      "magic": 85
+    }
+  },
+  {
+    "id": 9400515,
+    "name": "Indigo Eye",
+    "level": 38,
+    "hp": 1550,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 70
+    }
+  },
+  {
+    "id": 4230400,
+    "name": "Iron Boar",
+    "level": 45,
+    "hp": 2650,
+    "avoid": 20,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 350,
+      "magic": 350
+    }
+  },
+  {
+    "id": 4230103,
+    "name": "Iron Hog",
+    "level": 42,
+    "hp": 2200,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 400,
+      "magic": 400
+    }
+  },
+  {
+    "id": 4230505,
+    "name": "Jar",
+    "level": 47,
+    "hp": 2700,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 155,
+      "magic": 160
+    }
+  },
+  {
+    "id": 9420535,
+    "name": "Jester Scarlion",
+    "level": 68,
+    "hp": 12000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 220
+    }
+  },
+  {
+    "id": 9400402,
+    "name": "Jonin",
+    "level": 80,
+    "hp": 25000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 610,
+      "magic": 470
+    }
+  },
+  {
+    "id": 8130100,
+    "name": "Jr. Balrog",
+    "level": 80,
+    "hp": 335000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 420,
+      "magic": 450
+    }
+  },
+  {
+    "id": 2100102,
+    "name": "Jr. Cactus",
+    "level": 22,
+    "hp": 450,
+    "avoid": 8,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 30
+    }
+  },
+  {
+    "id": 3210200,
+    "name": "Jr. Cellion",
+    "level": 33,
+    "hp": 1100,
+    "avoid": 15,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 4230108,
+    "name": "Jr. Cerebes",
+    "level": 43,
+    "hp": 2300,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 290,
+      "magic": 150
+    }
+  },
+  {
+    "id": 3210202,
+    "name": "Jr. Grupin",
+    "level": 33,
+    "hp": 1100,
+    "avoid": 15,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 3210201,
+    "name": "Jr. Lioner",
+    "level": 33,
+    "hp": 1100,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 6230401,
+    "name": "Jr. Lucida",
+    "level": 63,
+    "hp": 7600,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 220
+    }
+  },
+  {
+    "id": 2130103,
+    "name": "Jr. Necki",
+    "level": 21,
+    "hp": 285,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 30
+    }
+  },
+  {
+    "id": 8190000,
+    "name": "Jr. Newtie",
+    "level": 105,
+    "hp": 68000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 750,
+      "magic": 680
+    }
+  },
+  {
+    "id": 3400005,
+    "name": "Jr. Pepe Doll Claw Game",
+    "level": 38,
+    "hp": 1700,
+    "avoid": 18,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 110
+    }
+  },
+  {
+    "id": 3400006,
+    "name": "Jr. Pepe Doll",
+    "level": 35,
+    "hp": 200,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 50
+    }
+  },
+  {
+    "id": 5400000,
+    "name": "Jr. Pepe",
+    "level": 35,
+    "hp": 1400,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 100
+    }
+  },
+  {
+    "id": 3230405,
+    "name": "Jr. Seal",
+    "level": 38,
+    "hp": 1850,
+    "avoid": 18,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 125
+    }
+  },
+  {
+    "id": 5200000,
+    "name": "Jr. Sentinel",
+    "level": 23,
+    "hp": 600,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 40
+    }
+  },
+  {
+    "id": 3230101,
+    "name": "Jr. Wraith",
+    "level": 35,
+    "hp": 1200,
+    "avoid": 17,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 90
+    }
+  },
+  {
+    "id": 5100000,
+    "name": "Jr. Yeti",
+    "level": 50,
+    "hp": 3700,
+    "avoid": 25,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 180
+    }
+  },
+  {
+    "id": 9400405,
+    "name": "Kacchuu Musha",
+    "level": 120,
+    "hp": 78000000,
+    "avoid": 42,
+    "magic": {
+      "fire": 2,
+      "poison": 3,
+      "ice": 0,
+      "lightning": 0,
+      "holy": 0,
+      "dark": 1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 3200,
+      "magic": 1200
+    }
+  },
+  {
+    "id": 4300006,
+    "name": "Kid Mannequin",
+    "level": 43,
+    "hp": 2300,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 170
+    }
+  },
+  {
+    "id": 9400540,
+    "name": "Killa Bee",
+    "level": 25,
+    "hp": 730,
+    "avoid": 5,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 75
+    }
+  },
+  {
+    "id": 9400541,
+    "name": "Killa Bee",
+    "level": 25,
+    "hp": 730,
+    "avoid": 5,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 75
+    }
+  },
+  {
+    "id": 4230110,
+    "name": "King Block Golem",
+    "level": 45,
+    "hp": 2600,
+    "avoid": 14,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 110
+    }
+  },
+  {
+    "id": 3230103,
+    "name": "King Bloctopus",
+    "level": 38,
+    "hp": 1850,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 140
+    }
+  },
+  {
+    "id": 5220000,
+    "name": "King Clang",
+    "level": 55,
+    "hp": 25000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 120
+    }
+  },
+  {
+    "id": 7220002,
+    "name": "King Sage Cat",
+    "level": 77,
+    "hp": 108000,
+    "avoid": 27,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 0,
+      "lightning": 0,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 520,
+      "magic": 410
+    }
+  },
+  {
+    "id": 3100102,
+    "name": "Kiyo",
+    "level": 30,
+    "hp": 870,
+    "avoid": 13,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 40
+    }
+  },
+  {
+    "id": 8140200,
+    "name": "Klock",
+    "level": 70,
+    "hp": 15000,
+    "avoid": 26,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 250
+    }
+  },
+  {
+    "id": 2230107,
+    "name": "Krappy",
+    "level": 24,
+    "hp": 500,
+    "avoid": 8,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 40
+    }
+  },
+  {
+    "id": 3000006,
+    "name": "Krip",
+    "level": 30,
+    "hp": 900,
+    "avoid": 12,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 40
+    }
+  },
+  {
+    "id": 6130208,
+    "name": "Kru",
+    "level": 68,
+    "hp": 12500,
+    "avoid": 26,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 250
+    }
+  },
+  {
+    "id": 9400406,
+    "name": "Kunoichi",
+    "level": 60,
+    "hp": 6500,
+    "avoid": 22,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 210
+    }
+  },
+  {
+    "id": 4300009,
+    "name": "Latest Hits Compilation",
+    "level": 46,
+    "hp": 2600,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 185
+    }
+  },
+  {
+    "id": 6230300,
+    "name": "Lazy Buffy",
+    "level": 66,
+    "hp": 9400,
+    "avoid": 26,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 254
+    }
+  },
+  {
+    "id": 9400110,
+    "name": "Leader A",
+    "level": 62,
+    "hp": 10000,
+    "avoid": 26,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 210,
+      "magic": 175
+    }
+  },
+  {
+    "id": 9400111,
+    "name": "Leader B",
+    "level": 64,
+    "hp": 9000,
+    "avoid": 24,
+    "magic": {
+      "fire": 0,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 200
+    }
+  },
+  {
+    "id": 5300000,
+    "name": "Leatty",
+    "level": 32,
+    "hp": 1000,
+    "avoid": 13,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 54,
+      "magic": 70
+    }
+  },
+  {
+    "id": 8220003,
+    "name": "Leviathan",
+    "level": 120,
+    "hp": 13400000,
+    "avoid": 41,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 950,
+      "magic": 1050
+    }
+  },
+  {
+    "id": 3110100,
+    "name": "Ligator",
+    "level": 32,
+    "hp": 1200,
+    "avoid": 12,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 45,
+      "magic": 40
+    }
+  },
+  {
+    "id": 8220005,
+    "name": "Lilynouch",
+    "level": 131,
+    "hp": 7600000,
+    "avoid": 47,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1020,
+      "magic": 1110
+    }
+  },
+  {
+    "id": 5120002,
+    "name": "Lioner",
+    "level": 53,
+    "hp": 4200,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": -1,
+      "ice": 0,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 210
+    }
+  },
+  {
+    "id": 3230102,
+    "name": "Lorang",
+    "level": 37,
+    "hp": 1950,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 200
+    }
+  },
+  {
+    "id": 7130000,
+    "name": "Lucida",
+    "level": 73,
+    "hp": 15500,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 300,
+      "magic": 320
+    }
+  },
+  {
+    "id": 4230106,
+    "name": "Lunar Pixie",
+    "level": 45,
+    "hp": 2500,
+    "avoid": 24,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 2,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 145,
+      "magic": 160
+    }
+  },
+  {
+    "id": 3210800,
+    "name": "Lupin",
+    "level": 37,
+    "hp": 1500,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 5120000,
+    "name": "Luster Pixie",
+    "level": 52,
+    "hp": 4000,
+    "avoid": 22,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 125,
+      "magic": 265
+    }
+  },
+  {
+    "id": 8140000,
+    "name": "Lycanthrope",
+    "level": 80,
+    "hp": 27000,
+    "avoid": 28,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 650,
+      "magic": 520
+    }
+  },
+  {
+    "id": 8220006,
+    "name": "Lyka",
+    "level": 141,
+    "hp": 9300000,
+    "avoid": 49,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1100,
+      "magic": 1170
+    }
+  },
+  {
+    "id": 5120100,
+    "name": "MT-09",
+    "level": 54,
+    "hp": 13500,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 280,
+      "magic": 280
+    }
+  },
+  {
+    "id": 5300100,
+    "name": "Malady",
+    "level": 55,
+    "hp": 4000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 200
+    }
+  },
+  {
+    "id": 9400122,
+    "name": "Male Boss",
+    "level": 95,
+    "hp": 85000,
+    "avoid": 35,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 720,
+      "magic": 680
+    }
+  },
+  {
+    "id": 4300008,
+    "name": "Male Mannequin",
+    "level": 45,
+    "hp": 2500,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 185
+    }
+  },
+  {
+    "id": 3400001,
+    "name": "Mango Bubble Tea",
+    "level": 36,
+    "hp": 1500,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 105,
+      "magic": 118
+    }
+  },
+  {
+    "id": 2220000,
+    "name": "Mano",
+    "level": 20,
+    "hp": 20000,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  },
+  {
+    "id": 8180000,
+    "name": "Manon",
+    "level": 105,
+    "hp": 3700000,
+    "avoid": 39,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 850
+    }
+  },
+  {
+    "id": 3230104,
+    "name": "Mask Fish",
+    "level": 32,
+    "hp": 1000,
+    "avoid": 14,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 70,
+      "magic": 80
+    }
+  },
+  {
+    "id": 4230115,
+    "name": "Master Chronos",
+    "level": 46,
+    "hp": 2600,
+    "avoid": 24,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 200
+    }
+  },
+  {
+    "id": 7130300,
+    "name": "Master Death Teddy",
+    "level": 89,
+    "hp": 40000,
+    "avoid": 28,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 750,
+      "magic": 480
+    }
+  },
+  {
+    "id": 4230112,
+    "name": "Master Robo",
+    "level": 44,
+    "hp": 2450,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 210,
+      "magic": 195
+    }
+  },
+  {
+    "id": 6230500,
+    "name": "Master Soul Teddy",
+    "level": 67,
+    "hp": 11000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 3,
+      "lightning": 2,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 210,
+      "magic": 250
+    }
+  },
+  {
+    "id": 4230119,
+    "name": "Mateon",
+    "level": 41,
+    "hp": 2080,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 120
+    }
+  },
+  {
+    "id": 4230121,
+    "name": "Mecateon",
+    "level": 46,
+    "hp": 2600,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 210
+    }
+  },
+  {
+    "id": 3400002,
+    "name": "Melon Bubble Tea",
+    "level": 37,
+    "hp": 1600,
+    "avoid": 17,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 100
+    }
+  },
+  {
+    "id": 8200003,
+    "name": "Memory Guardian",
+    "level": 98,
+    "hp": 53000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 870,
+      "magic": 530
+    }
+  },
+  {
+    "id": 8200002,
+    "name": "Memory Monk Trainee",
+    "level": 94,
+    "hp": 45000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 660,
+      "magic": 720
+    }
+  },
+  {
+    "id": 8200001,
+    "name": "Memory Monk",
+    "level": 91,
+    "hp": 41000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 650,
+      "magic": 670
+    }
+  },
+  {
+    "id": 9400548,
+    "name": "Mighty Maple Eater",
+    "level": 30,
+    "hp": 950,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 70
+    }
+  },
+  {
+    "id": 5130108,
+    "name": "Miner Zombie",
+    "level": 57,
+    "hp": 4500,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 180
+    }
+  },
+  {
+    "id": 5150000,
+    "name": "Mixed Golem",
+    "level": 59,
+    "hp": 6000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 220
+    }
+  },
+  {
+    "id": 9420518,
+    "name": "Montrecer",
+    "level": 105,
+    "hp": 62000,
+    "avoid": 45,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 820,
+      "magic": 510
+    }
+  },
+  {
+    "id": 4230300,
+    "name": "Moon Bunny",
+    "level": 45,
+    "hp": 2600,
+    "avoid": 20,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 180
+    }
+  },
+  {
+    "id": 6130202,
+    "name": "Morphed Blin",
+    "level": 60,
+    "hp": 7000,
+    "avoid": 25,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 220,
+      "magic": 230
+    }
+  },
+  {
+    "id": 5250000,
+    "name": "Mossy Mushroom",
+    "level": 55,
+    "hp": 4400,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 120
+    }
+  },
+  {
+    "id": 4250000,
+    "name": "Mossy Snail",
+    "level": 42,
+    "hp": 2400,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 100
+    }
+  },
+  {
+    "id": 6130204,
+    "name": "Mr. Alli",
+    "level": 64,
+    "hp": 7800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 230
+    }
+  },
+  {
+    "id": 9420512,
+    "name": "Mr. Anchor",
+    "level": 68,
+    "hp": 11500,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 220,
+      "magic": 250
+    }
+  },
+  {
+    "id": 4230126,
+    "name": "Mummydog",
+    "level": 47,
+    "hp": 2750,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 175,
+      "magic": 195
+    }
+  },
+  {
+    "id": 6130101,
+    "name": "Mushmom",
+    "level": 60,
+    "hp": 20000,
+    "avoid": 27,
+    "magic": {
+      "fire": 1,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 320,
+      "magic": 320
+    }
+  },
+  {
+    "id": 4230105,
+    "name": "Nependeath",
+    "level": 42,
+    "hp": 2100,
+    "avoid": 10,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 120
+    }
+  },
+  {
+    "id": 8190002,
+    "name": "Nest Golem",
+    "level": 110,
+    "hp": 80000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 600
+    }
+  },
+  {
+    "id": 8190005,
+    "name": "Nest Golem",
+    "level": 110,
+    "hp": 80000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 600
+    }
+  },
+  {
+    "id": 9400003,
+    "name": "Nightghost",
+    "level": 60,
+    "hp": 7100,
+    "avoid": 25,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 220
+    }
+  },
+  {
+    "id": 9400563,
+    "name": "Nightmare",
+    "level": 40,
+    "hp": 1930,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 140
+    }
+  },
+  {
+    "id": 9400579,
+    "name": "Nightshadow",
+    "level": 100,
+    "hp": 70000,
+    "avoid": 45,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 3,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 560
+    }
+  },
+  {
+    "id": 7220001,
+    "name": "Nine-Tailed Fox",
+    "level": 70,
+    "hp": 89000,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 280,
+      "magic": 265
+    }
+  },
+  {
+    "id": 9400403,
+    "name": "Ninto",
+    "level": 100,
+    "hp": 71000,
+    "avoid": 35,
+    "magic": {
+      "fire": 2,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 0,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1020,
+      "magic": 610
+    }
+  },
+  {
+    "id": 9420503,
+    "name": "Nospeed",
+    "level": 33,
+    "hp": 1000,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 40
+    }
+  },
+  {
+    "id": 8200011,
+    "name": "Oblivion Guardian",
+    "level": 128,
+    "hp": 100500,
+    "avoid": 45,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1030,
+      "magic": 630
+    }
+  },
+  {
+    "id": 8200010,
+    "name": "Oblivion Monk Trainee",
+    "level": 124,
+    "hp": 85000,
+    "avoid": 43,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 760,
+      "magic": 910
+    }
+  },
+  {
+    "id": 8200009,
+    "name": "Oblivion Monk",
+    "level": 121,
+    "hp": 71000,
+    "avoid": 41,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 740,
+      "magic": 870
+    }
+  },
+  {
+    "id": 9420508,
+    "name": "Octobunny",
+    "level": 43,
+    "hp": 2150,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 400,
+      "magic": 400
+    }
+  },
+  {
+    "id": 1120100,
+    "name": "Octopus",
+    "level": 12,
+    "hp": 200,
+    "avoid": 4,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 40
+    }
+  },
+  {
+    "id": 6230602,
+    "name": "Officer Skeleton",
+    "level": 63,
+    "hp": 7500,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 230
+    }
+  },
+  {
+    "id": 9420530,
+    "name": "Oly Oly",
+    "level": 56,
+    "hp": 4600,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 180
+    }
+  },
+  {
+    "id": 1210102,
+    "name": "Orange Mushroom",
+    "level": 8,
+    "hp": 80,
+    "avoid": 1,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 10
+    }
+  },
+  {
+    "id": 9420509,
+    "name": "Pac Pinky",
+    "level": 58,
+    "hp": 5000,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 200
+    }
+  },
+  {
+    "id": 3210203,
+    "name": "Panda Teddy",
+    "level": 36,
+    "hp": 1400,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 95,
+      "magic": 95
+    }
+  },
+  {
+    "id": 6130203,
+    "name": "Panda",
+    "level": 60,
+    "hp": 6500,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 230
+    }
+  },
+  {
+    "id": 9400011,
+    "name": "Paper Lantern Ghost",
+    "level": 40,
+    "hp": 1920,
+    "avoid": 25,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 160
+    }
+  },
+  {
+    "id": 8500002,
+    "name": "Papulatus",
+    "level": 125,
+    "hp": 32870000,
+    "avoid": 40,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 1200
+    }
+  },
+  {
+    "id": 6130207,
+    "name": "Peach Monkey",
+    "level": 62,
+    "hp": 7500,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 200
+    }
+  },
+  {
+    "id": 6130103,
+    "name": "Pepe",
+    "level": 60,
+    "hp": 7200,
+    "avoid": 30,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 210,
+      "magic": 225
+    }
+  },
+  {
+    "id": 9420517,
+    "name": "Petrifighter",
+    "level": 110,
+    "hp": 115000,
+    "avoid": 38,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 900,
+      "magic": 600
+    }
+  },
+  {
+    "id": 8142000,
+    "name": "Phantom Watch",
+    "level": 95,
+    "hp": 53000,
+    "avoid": 37,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 835,
+      "magic": 530
+    }
+  },
+  {
+    "id": 8520000,
+    "name": "Pianus",
+    "level": 110,
+    "hp": 32000000,
+    "avoid": 14,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1000,
+      "magic": 1300
+    }
+  },
+  {
+    "id": 1210100,
+    "name": "Pig",
+    "level": 7,
+    "hp": 75,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 5,
+      "magic": 20
+    }
+  },
+  {
+    "id": 2230108,
+    "name": "Pinboom",
+    "level": 22,
+    "hp": 400,
+    "avoid": 7,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 30
+    }
+  },
+  {
+    "id": 4300005,
+    "name": "Pink Perfume",
+    "level": 42,
+    "hp": 2000,
+    "avoid": 20,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 170
+    }
+  },
+  {
+    "id": 3110101,
+    "name": "Pink Teddy",
+    "level": 32,
+    "hp": 1050,
+    "avoid": 14,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 70
+    }
+  },
+  {
+    "id": 3230304,
+    "name": "Planey",
+    "level": 38,
+    "hp": 1830,
+    "avoid": 19,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 105,
+      "magic": 125
+    }
+  },
+  {
+    "id": 4230120,
+    "name": "Plateon",
+    "level": 44,
+    "hp": 2480,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 190
+    }
+  },
+  {
+    "id": 4230114,
+    "name": "Platoon Chronos",
+    "level": 41,
+    "hp": 2050,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 160
+    }
+  },
+  {
+    "id": 4230201,
+    "name": "Poison Poopa",
+    "level": 40,
+    "hp": 1910,
+    "avoid": 18,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 100
+    }
+  },
+  {
+    "id": 4230200,
+    "name": "Poopa",
+    "level": 40,
+    "hp": 1900,
+    "avoid": 18,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 160
+    }
+  },
+  {
+    "id": 5250002,
+    "name": "Primitive Boar",
+    "level": 57,
+    "hp": 4500,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 160
+    }
+  },
+  {
+    "id": 3230303,
+    "name": "Propelly",
+    "level": 37,
+    "hp": 1700,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 95,
+      "magic": 115
+    }
+  },
+  {
+    "id": 9400558,
+    "name": "Psycho Jack",
+    "level": 30,
+    "hp": 850,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 50
+    }
+  },
+  {
+    "id": 8200007,
+    "name": "Qualm Guardian",
+    "level": 113,
+    "hp": 100500,
+    "avoid": 39,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 940,
+      "magic": 570
+    }
+  },
+  {
+    "id": 8200006,
+    "name": "Qualm Monk Trainee",
+    "level": 109,
+    "hp": 85000,
+    "avoid": 38,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 800
+    }
+  },
+  {
+    "id": 8200005,
+    "name": "Qualm Monk",
+    "level": 106,
+    "hp": 71000,
+    "avoid": 37,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 690,
+      "magic": 750
+    }
+  },
+  {
+    "id": 7130500,
+    "name": "Rash",
+    "level": 70,
+    "hp": 14500,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 235,
+      "magic": 245
+    }
+  },
+  {
+    "id": 9420532,
+    "name": "Ratatula",
+    "level": 59,
+    "hp": 6200,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 220,
+      "magic": 190
+    }
+  },
+  {
+    "id": 3110102,
+    "name": "Ratz",
+    "level": 32,
+    "hp": 1000,
+    "avoid": 13,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 65,
+      "magic": 75
+    }
+  },
+  {
+    "id": 8140701,
+    "name": "Red Dragon Turtle",
+    "level": 93,
+    "hp": 49000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 500
+    }
+  },
+  {
+    "id": 6130100,
+    "name": "Red Drake",
+    "level": 60,
+    "hp": 6000,
+    "avoid": 22,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 220
+    }
+  },
+  {
+    "id": 4230504,
+    "name": "Red Flower Serpent",
+    "level": 45,
+    "hp": 2550,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 160
+    }
+  },
+  {
+    "id": 8140102,
+    "name": "Red Kentaurus",
+    "level": 88,
+    "hp": 37000,
+    "avoid": 28,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 495
+    }
+  },
+  {
+    "id": 4230501,
+    "name": "Red Porky",
+    "level": 41,
+    "hp": 2000,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 150
+    }
+  },
+  {
+    "id": 130101,
+    "name": "Red Snail",
+    "level": 4,
+    "hp": 40,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 3,
+      "magic": 10
+    }
+  },
+  {
+    "id": 8150300,
+    "name": "Red Wyvern",
+    "level": 97,
+    "hp": 53000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 550
+    }
+  },
+  {
+    "id": 5120505,
+    "name": "Reindeer",
+    "level": 58,
+    "hp": 5600,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 235
+    }
+  },
+  {
+    "id": 3210208,
+    "name": "Retz",
+    "level": 36,
+    "hp": 1400,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 85
+    }
+  },
+  {
+    "id": 8140702,
+    "name": "Rexton",
+    "level": 95,
+    "hp": 50000,
+    "avoid": 37,
+    "magic": {
+      "fire": 1,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 840,
+      "magic": 550
+    }
+  },
+  {
+    "id": 1210101,
+    "name": "Ribbon Pig",
+    "level": 10,
+    "hp": 120,
+    "avoid": 2,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 30
+    }
+  },
+  {
+    "id": 8142100,
+    "name": "Risell Squid",
+    "level": 97,
+    "hp": 49000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 550
+    }
+  },
+  {
+    "id": 4230111,
+    "name": "Robo",
+    "level": 41,
+    "hp": 2000,
+    "avoid": 15,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 175
+    }
+  },
+  {
+    "id": 2230111,
+    "name": "Rocky Mask",
+    "level": 24,
+    "hp": 600,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 9420533,
+    "name": "Rodeo",
+    "level": 61,
+    "hp": 6000,
+    "avoid": 28,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 220,
+      "magic": 230
+    }
+  },
+  {
+    "id": 3210204,
+    "name": "Roloduck",
+    "level": 34,
+    "hp": 1200,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 70,
+      "magic": 85
+    }
+  },
+  {
+    "id": 4130103,
+    "name": "Rombot",
+    "level": 47,
+    "hp": 11000,
+    "avoid": 16,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 165,
+      "magic": 180
+    }
+  },
+  {
+    "id": 2100104,
+    "name": "Royal Cactus",
+    "level": 28,
+    "hp": 750,
+    "avoid": 10,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 40
+    }
+  },
+  {
+    "id": 6130209,
+    "name": "Sage Cat",
+    "level": 66,
+    "hp": 9000,
+    "avoid": 24,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 200
+    }
+  },
+  {
+    "id": 9400509,
+    "name": "Sakura Cellion",
+    "level": 33,
+    "hp": 1100,
+    "avoid": 15,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 60,
+      "magic": 80
+    }
+  },
+  {
+    "id": 5100004,
+    "name": "Samiho",
+    "level": 56,
+    "hp": 4500,
+    "avoid": 28,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 190
+    }
+  },
+  {
+    "id": 3100101,
+    "name": "Sand Dwarf",
+    "level": 32,
+    "hp": 1000,
+    "avoid": 12,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 45,
+      "magic": 40
+    }
+  },
+  {
+    "id": 9420531,
+    "name": "Scaredy Scarlion",
+    "level": 59,
+    "hp": 5800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 200
+    }
+  },
+  {
+    "id": 2100107,
+    "name": "Scarf Plead",
+    "level": 27,
+    "hp": 700,
+    "avoid": 10,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 40
+    }
+  },
+  {
+    "id": 3210450,
+    "name": "Scuba Pepe",
+    "level": 36,
+    "hp": 1430,
+    "avoid": 18,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 90,
+      "magic": 155
+    }
+  },
+  {
+    "id": 2230105,
+    "name": "Seacle",
+    "level": 23,
+    "hp": 500,
+    "avoid": 9,
+    "magic": {
+      "fire": 2,
+      "poison": 0,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 45
+    }
+  },
+  {
+    "id": 9420511,
+    "name": "Selkie Jr.",
+    "level": 60,
+    "hp": 5500,
+    "avoid": 22,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 220
+    }
+  },
+  {
+    "id": 3000000,
+    "name": "Sentinel",
+    "level": 30,
+    "hp": 900,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 2,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 275,
+      "magic": 85
+    }
+  },
+  {
+    "id": 4220000,
+    "name": "Seruf",
+    "level": 45,
+    "hp": 7800,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 200
+    }
+  },
+  {
+    "id": 8150100,
+    "name": "Shark",
+    "level": 100,
+    "hp": 56000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": -1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 570
+    }
+  },
+  {
+    "id": 120100,
+    "name": "Shroom",
+    "level": 2,
+    "hp": 20,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 4230125,
+    "name": "Skeledog",
+    "level": 44,
+    "hp": 2450,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 190
+    }
+  },
+  {
+    "id": 8190003,
+    "name": "Skelegon",
+    "level": 110,
+    "hp": 70000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 700
+    }
+  },
+  {
+    "id": 5150001,
+    "name": "Skeleton Soldier",
+    "level": 57,
+    "hp": 4600,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 160
+    }
+  },
+  {
+    "id": 8190004,
+    "name": "Skelosaurus",
+    "level": 113,
+    "hp": 72000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 810,
+      "magic": 710
+    }
+  },
+  {
+    "id": 210100,
+    "name": "Slime",
+    "level": 6,
+    "hp": 50,
+    "avoid": 1,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 5,
+      "magic": 10
+    }
+  },
+  {
+    "id": 9420510,
+    "name": "Slimy",
+    "level": 63,
+    "hp": 5800,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 150
+    }
+  },
+  {
+    "id": 9420516,
+    "name": "Slygie",
+    "level": 95,
+    "hp": 49000,
+    "avoid": 35,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 530
+    }
+  },
+  {
+    "id": 100100,
+    "name": "Snail",
+    "level": 1,
+    "hp": 8,
+    "avoid": 0,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 8220001,
+    "name": "Snowman",
+    "level": 90,
+    "hp": 120000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 500
+    }
+  },
+  {
+    "id": 9400560,
+    "name": "Sophilia Doll",
+    "level": 50,
+    "hp": 1800,
+    "avoid": 19,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 170
+    }
+  },
+  {
+    "id": 6230400,
+    "name": "Soul Teddy",
+    "level": 63,
+    "hp": 7600,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 2,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 215
+    }
+  },
+  {
+    "id": 4230123,
+    "name": "Sparker",
+    "level": 43,
+    "hp": 2400,
+    "avoid": 15,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 140,
+      "magic": 172
+    }
+  },
+  {
+    "id": 8141000,
+    "name": "Spirit Viking",
+    "level": 93,
+    "hp": 50000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 530
+    }
+  },
+  {
+    "id": 9420041,
+    "name": "Spirit Visitor",
+    "level": 120,
+    "hp": 133000,
+    "avoid": 40,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 3,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 1110,
+      "magic": 1200
+    }
+  },
+  {
+    "id": 4300013,
+    "name": "Spirit of Rock",
+    "level": 49,
+    "hp": 250000,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 280
+    }
+  },
+  {
+    "id": 8141300,
+    "name": "Squid",
+    "level": 94,
+    "hp": 46000,
+    "avoid": 37,
+    "magic": {
+      "fire": 2,
+      "poison": 2,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 525
+    }
+  },
+  {
+    "id": 5120502,
+    "name": "Sr. Bellflower Root",
+    "level": 54,
+    "hp": 4400,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 215
+    }
+  },
+  {
+    "id": 3230200,
+    "name": "Star Pixie",
+    "level": 35,
+    "hp": 1300,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 100
+    }
+  },
+  {
+    "id": 2300100,
+    "name": "Stirge",
+    "level": 20,
+    "hp": 300,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 20
+    }
+  },
+  {
+    "id": 5250001,
+    "name": "Stone Bug",
+    "level": 51,
+    "hp": 3600,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 255,
+      "magic": 200
+    }
+  },
+  {
+    "id": 5130101,
+    "name": "Stone Golem",
+    "level": 55,
+    "hp": 4000,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 130,
+      "magic": 100
+    }
+  },
+  {
+    "id": 9420500,
+    "name": "Stopnow",
+    "level": 28,
+    "hp": 700,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 35,
+      "magic": 70
+    }
+  },
+  {
+    "id": 9400581,
+    "name": "Stormbreaker",
+    "level": 80,
+    "hp": 38000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 3,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 480
+    }
+  },
+  {
+    "id": 1210111,
+    "name": "Strange Pig",
+    "level": 10,
+    "hp": 120,
+    "avoid": 2,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 30
+    }
+  },
+  {
+    "id": 5120503,
+    "name": "Straw Target Dummy",
+    "level": 50,
+    "hp": 3000,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 200
+    }
+  },
+  {
+    "id": 9400538,
+    "name": "Street Slime",
+    "level": 19,
+    "hp": 320,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 40,
+      "magic": 50
+    }
+  },
+  {
+    "id": 130100,
+    "name": "Stump",
+    "level": 4,
+    "hp": 40,
+    "avoid": 0,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 3,
+      "magic": 10
+    }
+  },
+  {
+    "id": 3220000,
+    "name": "Stumpy",
+    "level": 35,
+    "hp": 135000,
+    "avoid": 12,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 70
+    }
+  },
+  {
+    "id": 7220000,
+    "name": "Tae Roon",
+    "level": 71,
+    "hp": 93000,
+    "avoid": 30,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 335,
+      "magic": 265
+    }
+  },
+  {
+    "id": 7130100,
+    "name": "Tauromacis",
+    "level": 70,
+    "hp": 15000,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 250
+    }
+  },
+  {
+    "id": 7130101,
+    "name": "Taurospear",
+    "level": 75,
+    "hp": 18000,
+    "avoid": 30,
+    "magic": {
+      "fire": 2,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 550,
+      "magic": 400
+    }
+  },
+  {
+    "id": 2230112,
+    "name": "Terrified Wild Boar",
+    "level": 25,
+    "hp": 550,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  },
+  {
+    "id": 8170000,
+    "name": "Thanatos",
+    "level": 108,
+    "hp": 70000,
+    "avoid": 38,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 850,
+      "magic": 680
+    }
+  },
+  {
+    "id": 5120506,
+    "name": "The Book Ghost",
+    "level": 55,
+    "hp": 4500,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 150,
+      "magic": 220
+    }
+  },
+  {
+    "id": 9400300,
+    "name": "The Boss",
+    "level": 155,
+    "hp": 400000000,
+    "avoid": 50,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 5000,
+      "magic": 4300
+    }
+  },
+  {
+    "id": 3210207,
+    "name": "Tick",
+    "level": 34,
+    "hp": 1100,
+    "avoid": 14,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 95,
+      "magic": 90
+    }
+  },
+  {
+    "id": 4230113,
+    "name": "Tick-Tock",
+    "level": 40,
+    "hp": 1900,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 170
+    }
+  },
+  {
+    "id": 5220003,
+    "name": "Timer",
+    "level": 59,
+    "hp": 735000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 230
+    }
+  },
+  {
+    "id": 9420505,
+    "name": "Tippo Blue",
+    "level": 53,
+    "hp": 3200,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 150
+    }
+  },
+  {
+    "id": 9420504,
+    "name": "Tippo Red",
+    "level": 50,
+    "hp": 2900,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 180
+    }
+  },
+  {
+    "id": 9420000,
+    "name": "Toad",
+    "level": 28,
+    "hp": 720,
+    "avoid": 12,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 0,
+      "magic": 0
+    }
+  },
+  {
+    "id": 4130101,
+    "name": "Tortie",
+    "level": 46,
+    "hp": 2550,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 300,
+      "magic": 300
+    }
+  },
+  {
+    "id": 3230305,
+    "name": "Toy Trojan",
+    "level": 39,
+    "hp": 1920,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 130
+    }
+  },
+  {
+    "id": 9300011,
+    "name": "Toy Trojan",
+    "level": 39,
+    "hp": 1920,
+    "avoid": 18,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 110,
+      "magic": 130
+    }
+  },
+  {
+    "id": 6400001,
+    "name": "Transformed Dark Yeti",
+    "level": 68,
+    "hp": 13000,
+    "avoid": 26,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 190,
+      "magic": 270
+    }
+  },
+  {
+    "id": 3400008,
+    "name": "Transformed Doll Claw Game",
+    "level": 39,
+    "hp": 1800,
+    "avoid": 19,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 100,
+      "magic": 100
+    }
+  },
+  {
+    "id": 6300001,
+    "name": "Transformed Yeti",
+    "level": 65,
+    "hp": 11000,
+    "avoid": 24,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 245
+    }
+  },
+  {
+    "id": 4250001,
+    "name": "Tree Rod",
+    "level": 46,
+    "hp": 2600,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 300,
+      "magic": 300
+    }
+  },
+  {
+    "id": 2230103,
+    "name": "Trixter",
+    "level": 23,
+    "hp": 450,
+    "avoid": 10,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 2,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 52,
+      "magic": 65
+    }
+  },
+  {
+    "id": 9420507,
+    "name": "Trucker",
+    "level": 48,
+    "hp": 3000,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 150
+    }
+  },
+  {
+    "id": 3230308,
+    "name": "Tweeter",
+    "level": 39,
+    "hp": 1900,
+    "avoid": 17,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 120,
+      "magic": 130
+    }
+  },
+  {
+    "id": 9400574,
+    "name": "Typhon",
+    "level": 100,
+    "hp": 56000,
+    "avoid": 40,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 3,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 500,
+      "magic": 450
+    }
+  },
+  {
+    "id": 4230118,
+    "name": "Ultra Gray",
+    "level": 45,
+    "hp": 2550,
+    "avoid": 21,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 2,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 200
+    }
+  },
+  {
+    "id": 9400539,
+    "name": "Urban Fungus",
+    "level": 21,
+    "hp": 350,
+    "avoid": 7,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 10,
+      "magic": 60
+    }
+  },
+  {
+    "id": 9420515,
+    "name": "Veetron",
+    "level": 90,
+    "hp": 42000,
+    "avoid": 35,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 500
+    }
+  },
+  {
+    "id": 9420539,
+    "name": "Vikerola",
+    "level": 87,
+    "hp": 36000,
+    "avoid": 26,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 0,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 820,
+      "magic": 465
+    }
+  },
+  {
+    "id": 9400561,
+    "name": "Voodoo",
+    "level": 60,
+    "hp": 6800,
+    "avoid": 22,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 240,
+      "magic": 210
+    }
+  },
+  {
+    "id": 9400012,
+    "name": "Water Goblin",
+    "level": 60,
+    "hp": 7100,
+    "avoid": 22,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 230
+    }
+  },
+  {
+    "id": 7130200,
+    "name": "Werewolf",
+    "level": 75,
+    "hp": 16000,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": -1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 800,
+      "magic": 290
+    }
+  },
+  {
+    "id": 9409013,
+    "name": "White Baby Monkey",
+    "level": 104,
+    "hp": 71000,
+    "avoid": 37,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 690,
+      "magic": 750
+    }
+  },
+  {
+    "id": 5140000,
+    "name": "White Fang",
+    "level": 58,
+    "hp": 5800,
+    "avoid": 25,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 220
+    }
+  },
+  {
+    "id": 9409014,
+    "name": "White Mama Monkey",
+    "level": 96,
+    "hp": 49000,
+    "avoid": 37,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 830,
+      "magic": 550
+    }
+  },
+  {
+    "id": 2230102,
+    "name": "Wild Boar",
+    "level": 25,
+    "hp": 550,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  },
+  {
+    "id": 6230100,
+    "name": "Wild Kargo",
+    "level": 62,
+    "hp": 5500,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 180,
+      "magic": 130
+    }
+  },
+  {
+    "id": 9400576,
+    "name": "Windraider",
+    "level": 70,
+    "hp": 16000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 3,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 265,
+      "magic": 365
+    }
+  },
+  {
+    "id": 9400545,
+    "name": "Wolf Spider",
+    "level": 80,
+    "hp": 28000,
+    "avoid": 30,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 700,
+      "magic": 650
+    }
+  },
+  {
+    "id": 2230110,
+    "name": "Wooden Mask",
+    "level": 23,
+    "hp": 500,
+    "avoid": 10,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 30,
+      "magic": 40
+    }
+  },
+  {
+    "id": 5120504,
+    "name": "Wooden Target Dummy",
+    "level": 51,
+    "hp": 3200,
+    "avoid": 18,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 200,
+      "magic": 160
+    }
+  },
+  {
+    "id": 4230102,
+    "name": "Wraith",
+    "level": 48,
+    "hp": 2800,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 182,
+      "magic": 180
+    }
+  },
+  {
+    "id": 9420537,
+    "name": "Yabber Doo",
+    "level": 75,
+    "hp": 15800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 250,
+      "magic": 250
+    }
+  },
+  {
+    "id": 7130400,
+    "name": "Yellow King Goblin",
+    "level": 70,
+    "hp": 25000,
+    "avoid": 15,
+    "magic": {
+      "fire": 2,
+      "poison": 1,
+      "ice": 0,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 280,
+      "magic": 280
+    }
+  },
+  {
+    "id": 4300003,
+    "name": "Yellow Perfume",
+    "level": 41,
+    "hp": 1900,
+    "avoid": 19,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 155,
+      "magic": 165
+    }
+  },
+  {
+    "id": 3400003,
+    "name": "Yeti Doll Claw Game",
+    "level": 38,
+    "hp": 1600,
+    "avoid": 18,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": -1,
+      "dark": -1,
+      "heal": -1
+    },
+    "def": {
+      "weapon": 115,
+      "magic": 105
+    }
+  },
+  {
+    "id": 3400004,
+    "name": "Yeti Doll",
+    "level": 35,
+    "hp": 200,
+    "avoid": 15,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": 1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 50,
+      "magic": 50
+    }
+  },
+  {
+    "id": 6300000,
+    "name": "Yeti",
+    "level": 65,
+    "hp": 11000,
+    "avoid": 24,
+    "magic": {
+      "fire": 0,
+      "poison": 1,
+      "ice": 2,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 170,
+      "magic": 245
+    }
+  },
+  {
+    "id": 6220001,
+    "name": "Zeno",
+    "level": 65,
+    "hp": 36000,
+    "avoid": 29,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 210,
+      "magic": 200
+    }
+  },
+  {
+    "id": 4230117,
+    "name": "Zeta Gray",
+    "level": 42,
+    "hp": 2300,
+    "avoid": 20,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 3
+    },
+    "def": {
+      "weapon": 160,
+      "magic": 180
+    }
+  },
+  {
+    "id": 4230101,
+    "name": "Zombie Lupin",
+    "level": 40,
+    "hp": 1800,
+    "avoid": 25,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 70,
+      "magic": 70
+    }
+  },
+  {
+    "id": 6300005,
+    "name": "Zombie Mushmom",
+    "level": 65,
+    "hp": 35000,
+    "avoid": 30,
+    "magic": {
+      "fire": -1,
+      "poison": -1,
+      "ice": -1,
+      "lightning": -1,
+      "holy": 1,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 350,
+      "magic": 400
+    }
+  },
+  {
+    "id": 2230101,
+    "name": "Zombie Mushroom",
+    "level": 24,
+    "hp": 500,
+    "avoid": 8,
+    "magic": {
+      "fire": 1,
+      "poison": 1,
+      "ice": 1,
+      "lightning": 1,
+      "holy": 0,
+      "dark": -1,
+      "heal": 1
+    },
+    "def": {
+      "weapon": 20,
+      "magic": 30
+    }
+  }
+]
