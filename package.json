@@ -1,14 +1,23 @@
 {
-  "name": "ms-calc",
-  "version": "0.0.1",
-  "description": "pre-big bang damage calc. based on maplesaga",
-  "main": "index.js",
+  "name": "jung35.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "webpack-dev-server --progress --colors"
+    "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",
+    "win-build": "SET NODE_ENV=production & webpack --config webpack/prod.config.js",
+    "win-start": "SET NODE_ENV=development & webpack-dev-server --config webpack/dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jung35/jung35.github.io.git"
   },
   "author": "Jung Oh <jung@jungoh.me>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jung35/jung35.github.io/issues"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
@@ -26,11 +35,14 @@
     "postcss-loader": "^2.0.8",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-merge": "^4.1.1"
   },
   "dependencies": {
     "lodash": "^4.17.4",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   }
 }

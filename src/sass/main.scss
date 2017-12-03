@@ -1,3 +1,70 @@
-.test {
-  font-size: 12px;
+@import 'normalize.css';
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.job_select {
+  margin: 0;
+  padding: 30px 0;
+  background: #FAFAFA;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: all 100ms linear;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  li {
+    max-width: 150px;
+    text-align: center;
+    padding: 0 20px;
+    cursor: pointer;
+
+    &.disabled {
+      opacity: 0.3;
+      cursor: initial;
+    }
+
+    &:not(.disabled):hover {
+      .avatar {
+        opacity: 1.0;
+      }
+
+      .job {
+        color: #000;
+      }
+    }
+  }
+
+  .avatar {
+    opacity: 0.7;
+    width: 100%;
+  }
+
+  .job {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+
+  &.selected {
+    padding: 15px 0;
+    cursor: pointer;
+
+    li {
+      max-width: 50px;
+
+      .avatar {
+        opacity: 1;
+      }
+
+      .job {
+        display: none;
+      }
+    }
+  }
 }

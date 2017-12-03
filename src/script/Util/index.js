@@ -1,3 +1,3 @@
-import DamageHelper from './DamageHelper'
+import FormData from './formdata'
 
-export default {DamageHelper}
+export default {FormData}

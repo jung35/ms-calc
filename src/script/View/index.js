@@ -1,25 +1,36 @@
 import _ from 'lodash'
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import Jobs from '../Jobs'
+
+import JobSelection from './jobselection'
+
+const jobList = _.map(Jobs, obj => {
+  return new obj()
+})
 
 export default class View extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      jobs : _.map(Jobs, obj => {
-        return (new obj).info
-      })
+      job: undefined
     }
   }
 
-  render() {
-    console.log(this.state)
+  redoJobSelection() {
+    this.setState({ job: undefined })
+  }
 
-    return (
-      <ul>{_.map(this.state.jobs, job => {
-        return <li key={job.name}>{job.name} <img src={job.img} /></li>
-      })}</ul>
-    );
+  selectJob(job) {
+    if(!job.info.enabled) return false
+    this.setState({ job })
+  }
+
+  render() {
+    const selectJob = this.selectJob.bind(this)
+    const redoJobSelection = this.redoJobSelection.bind(this)
+
+    return <div>
+      <JobSelection selectJob={selectJob} redoJobSelection={redoJobSelection} jobList={jobList} job={this.state.job} />
+    </div>
   }
 }
