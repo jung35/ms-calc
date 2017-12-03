@@ -43,10 +43,12 @@ export default class View extends Component {
 
   redoJobSelection() {
     this.setState({ job: undefined })
+    window.history.pushState(null, null, `?`);
   }
 
   selectJob(job) {
     if(!job.info.enabled) return false
+    window.history.pushState(null, null, `?job=${job.info.name.toLowerCase()}`);
     this.setState({ job })
   }
 
