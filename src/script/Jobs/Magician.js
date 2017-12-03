@@ -18,14 +18,11 @@ export default class Magician {
   }
 
   damage() {
-    const { level, int, luk, magic, skillMagic, maMastery, wandBonus } = this.values
-
-    if(level == undefined || int == undefined || luk == undefined ||
-       magic == undefined || skillMagic == undefined ||
-       maMastery == undefined || wandBonus == undefined)
-    {
-      return {}
+    for(let i = 0; i < this.form.length; i++) {
+      if(this.values[this.form[i]] == undefined) return {}
     }
+
+    const { level, int, luk, magic, skillMagic, maMastery, wandBonus } = this.values
 
     let eq1 = (magic**2 / 1000) + magic
     let eq2 = int / 200
