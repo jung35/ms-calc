@@ -101,11 +101,11 @@ export default class Magician {
     mob = parseInt(mob)
     sharpEyes = parseInt(sharpEyes)
 
-    let eq1 = ((magic ** 2) / 1000) + magic
+    let eq1 = ((magic ** 2) / 1000)
     let eq2 = int / 200
-    let eq3 = eq1 * maMastery * 0.9
+    let eq3 = eq1 + (magic * maMastery * 0.9)
 
-    let max = (eq1/30 + eq2) * skillMagic * wandBonus
+    let max = ((eq1 + magic)/30 + eq2) * skillMagic * wandBonus
     let min = (eq3/30 + eq2) * skillMagic * wandBonus
 
     // finished basic dmg calculation
