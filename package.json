@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
+    "build": "NODE_ENV=production git checkout gh-pages && webpack --config webpack/prod.config.js && git add -A && git commit -m 'build pages' && git push && git checkout master",
     "start": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",
-    "win-build": "SET NODE_ENV=production & webpack --config webpack/prod.config.js",
+    "win-build": "git checkout gh-pages && SET NODE_ENV=production && webpack --config webpack/prod.config.js && git add -A && git commit -m \"build pages\" && git push && git checkout master",
     "win-start": "SET NODE_ENV=development & webpack-dev-server --config webpack/dev.config.js"
   },
   "repository": {
