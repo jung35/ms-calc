@@ -35,7 +35,7 @@ export default class MobCalculation extends Component {
   render() {
     const { id, name, level, image, hp, avoid, def, magic } = this.state.mob
     const basicDmg = this.props.selectedJob.damage()
-    let dmgTable = <div className="dmgTable"><h2>&larr; Please fill in all the fields</h2></div>
+    let dmgTable = <div className="dmg_table"><h3>&larr; Please fill in all the fields</h3></div>
 
     if(basicDmg.max != -1) {
       let hitrate = Math.floor(basicDmg.acc.acc / basicDmg.acc.accToHit * 100)
