@@ -6,7 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
     "start": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",
-    "win-build": "SET NODE_ENV=production & webpack --config webpack/prod.config.js",
+    "win-build": "git checkout gh-pages && SET NODE_ENV=production && webpack --config webpack/prod.config.js && git add -A && git commit -m \"build pages\" && git push && git checkout master",
     "win-start": "SET NODE_ENV=development & webpack-dev-server --config webpack/dev.config.js"
   },
   "repository": {
