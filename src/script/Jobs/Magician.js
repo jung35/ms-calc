@@ -45,15 +45,19 @@ export default class Magician {
           {value: 1.05, name: '5% Bonus'},
           {value: 1.10, name: '10% Bonus'}
         ]
-      }
+      },
+      mob: {type: 'hidden'}
     }
 
-    this.values = {}
+    this.values = {
+      maMastery: 1.75,
+      wandBonus: 1.00
+    }
   }
 
   damage() {
     for(let formField in this.form) {
-      if(this.values[formField] == undefined) return {}
+      if(this.values[formField] == undefined) return {max: -1, min: -1}
     }
 
     const { level, int, luk, magic, skillMagic, maMastery, wandBonus } = this.values
