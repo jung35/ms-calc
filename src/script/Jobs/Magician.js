@@ -33,8 +33,8 @@ export default class Magician {
         label: 'Skill Mastery',
         type: 'select',
         options: [
-          {value: 1.25, name: 'Initial (25%)', selected: true},
-          {value: 1.75, name: 'Maxed Skill (25% + 50%)'}
+          {value: 1.25, name: 'Initial (25%)'},
+          {value: 1.75, name: 'Maxed Skill (25% + 50%)', selected: true}
         ]
       },
       wandBonus: {

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Jobs from '../Jobs'
 
 import JobSelection from './jobselection'
+import FormInput from './forminput'
 
 export default class View extends Component {
   constructor(props) {
@@ -38,12 +39,18 @@ export default class View extends Component {
     this.setState({ job })
   }
 
+  playerInput(data) {
+
+  }
+
   render() {
     const selectJob = this.selectJob.bind(this)
     const redoJobSelection = this.redoJobSelection.bind(this)
+    const playerInput = this.playerInput.bind(this)
 
     return <div>
-      <JobSelection selectJob={selectJob} redoJobSelection={redoJobSelection} jobList={jobList} job={this.state.job} />
+      <JobSelection jobList={jobList} selectedJob={this.state.job} selectJob={selectJob} redoJobSelection={redoJobSelection} />
+      <FormInput selectedJob={this.state.job} playerInput={playerInput} />
     </div>
   }
 }

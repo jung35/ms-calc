@@ -2,14 +2,13 @@ import _ from 'lodash'
 import React, { Component } from 'react'
 import Jobs from '../Jobs'
 
-
 export default class JobSelection extends Component {
   constructor(props) {
     super(props)
   }
 
   render() {
-    const { selectJob, redoJobSelection, jobList, job: selectedJob } = this.props
+    const { selectJob, redoJobSelection, jobList, selectedJob } = this.props
 
     if(selectedJob != undefined) {
       const jobInfo = selectedJob.info

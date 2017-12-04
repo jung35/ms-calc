@@ -1,3 +1,3 @@
-import Monster from './monster'
+import Mobs from './mobs'
 
-export default {Monster}
+export { Mobs }
