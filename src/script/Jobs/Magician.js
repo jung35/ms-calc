@@ -1,4 +1,5 @@
 import img from '../../assets/jobs/new_magician.png'
+import React from 'react'
 
 import { Mobs } from '../Util'
 
@@ -10,35 +11,46 @@ export default class Magician {
       img: img
     }
 
+    let sharpEyesOptions = []
+    for(let i = 1; i <= 30; i++) {
+      sharpEyesOptions.push({value: i, name: i})
+    }
+
     this.form = {
-      mob: {type: 'hidden'},
+      mob: {type: 'hidden', req: true},
       level: {
         label: 'Level',
-        type: 'number'
+        type: 'number',
+        req: true
       },
       int: {
         label: 'Int',
-        type: 'number'
+        type: 'number',
+        req: true
       },
       luk: {
         label: 'Luk',
-        type: 'number'
+        type: 'number',
+        req: true
       },
       magic: {
         label: 'Total Magic',
-        type: 'number'
+        type: 'number',
+        req: true
       },
       skillMagic: {
         label: 'Skill Magic Attack',
-        type: 'number'
+        type: 'number',
+        req: true
       },
       maMastery: {
         label: 'Skill Mastery',
         type: 'select',
         options: [
-          {value: 1.25, name: 'Initial (25%)'},
-          {value: 1.75, name: 'Maxed Skill (25% + 50%)', selected: true}
-        ]
+          {value: 0.25, name: 'Initial (25%)'},
+          {value: 0.75, name: 'Maxed Skill (25% + 50%)', selected: true}
+        ],
+        req: true
       },
       wandBonus: {
         label: 'Elemental Wand Bonus',
@@ -47,31 +59,47 @@ export default class Magician {
           {value: 1.00, name: 'No Bonus', selected: true},
           {value: 1.05, name: '5% Bonus'},
           {value: 1.10, name: '10% Bonus'}
-        ]
+        ],
+        req: true
       },
+      sharpEyes: {
+        label: 'Sharp Eyes Level',
+        type: 'select',
+        options: [
+          {value: 0, name: 'No Sharp Eyes', selected: true},
+          ...sharpEyesOptions
+        ]
+      }
     }
 
     this.values = {
-      maMastery: 1.75,
+      maMastery: 0.75,
       wandBonus: 1.00
     }
+
+    this.tips = <ul className="tips">
+      <li><strong>Total Magic</strong><img src={require('../../assets/magician_tips/tma.png')} alt="total magic"/></li>
+      <li><strong>Skill Magic Attack</strong><img src={require('../../assets/magician_tips/matt.png')} alt="skill magic"/></li>
+      <li><strong>Skill Mastery</strong><img src={require('../../assets/magician_tips/mastery.png')} alt="skill magic"/></li>
+    </ul>
   }
 
   damage() {
     for(let formField in this.form) {
-      if(this.values[formField] == undefined) return {max: -1}
+      if(this.form[formField].req && this.values[formField] == undefined) return {max: -1}
     }
 
-    let { level, int, luk, magic, skillMagic, maMastery, wandBonus, mob } = this.values
+    let { level, int, luk, magic, skillMagic, maMastery, wandBonus, mob, sharpEyes } = this.values
 
     level = parseInt(level)
     int = parseInt(int)
     luk = parseInt(luk)
     magic = parseInt(magic)
-    skillMagic = parseInt(skillMagic)
-    maMastery = parseInt(maMastery)
-    wandBonus = parseInt(wandBonus)
+    skillMagic = parseFloat(skillMagic)
+    maMastery = parseFloat(maMastery)
+    wandBonus = parseFloat(wandBonus)
     mob = parseInt(mob)
+    sharpEyes = parseInt(sharpEyes)
 
     let eq1 = ((magic ** 2) / 1000) + magic
     let eq2 = int / 200
@@ -95,17 +123,31 @@ export default class Magician {
     let acc = Math.trunc(int / 10) + Math.trunc(luk / 10)
     let minAcc = accToHit * 10 / 24
 
-    max = Math.floor(max)
-    min = Math.floor(min)
+    max = Math.max(0, Math.floor(max))
+    min = Math.max(0, Math.floor(min))
 
     acc = Math.floor(acc)
     minAcc = Math.floor(minAcc)
     accToHit = Math.floor(accToHit)
 
+    let critChance = 0
+    let critIncrease = 0
+    if(sharpEyes > 0) {
+      critChance = Math.ceil(sharpEyes / 2) / 100
+      critChance = Math.max(0, Math.min(1, critChance))
+
+      critIncrease = 1 + ((10 + sharpEyes) / 100)
+      critIncrease = Math.max(1, Math.min(2, critIncrease))
+    }
+
     return {
       max, min,
       acc: {
         acc, minAcc, accToHit
+      },
+      crit: {
+        chance: critChance,
+        increase: critIncrease
       }
     }
   }

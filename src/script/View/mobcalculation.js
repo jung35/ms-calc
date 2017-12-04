@@ -35,30 +35,75 @@ export default class MobCalculation extends Component {
   render() {
     const { id, name, level, image, hp, avoid, def, magic } = this.state.mob
     const basicDmg = this.props.selectedJob.damage()
-    let dmgTable = null
+    let dmgTable = <div className="dmgTable"><h2>&larr; Please fill in all the fields</h2></div>
 
     if(basicDmg.max != -1) {
       let hitrate = Math.floor(basicDmg.acc.acc / basicDmg.acc.accToHit * 100)
       if(hitrate > 100) hitrate = 100
 
-      dmgTable = <div className="dmgTable">
-        <table>
+      let oneShotRate = null
+      if(hp < basicDmg.min) {
+        oneShotRate = <tr><th>Chance to 1 hit Mob</th><td>100%</td></tr>
+      } else if(hp < basicDmg.max && hp > basicDmg.min) {
+        oneShotRate = <tr>
+          <th>Chance to 1 hit Mob</th>
+          <td>{Math.floor((basicDmg.max - hp) / (basicDmg.max - basicDmg.min) * 100)}%</td>
+        </tr>
+      }
+
+      let critTable = null
+      if(basicDmg.crit.chance > 0) {
+        let critMax = Math.max(0, Math.floor(basicDmg.max * basicDmg.crit.increase))
+        let critMin = Math.max(0, Math.floor(basicDmg.min * basicDmg.crit.increase))
+        critTable = <table>
           <tbody>
-            <tr><th colspan="2">Character Damage</th></tr>
-            <tr><th>Maximum DMG</th><td>{ numberWithCommas(basicDmg.max) }</td></tr>
-            <tr><th>Minimum DMG</th><td>{ numberWithCommas(basicDmg.min) }</td></tr>
+            <tr><th colSpan="2">Critical Damage</th></tr>
+            <tr><th>Maximum Crit DMG</th><td>{ numberWithCommas(critMax) }</td></tr>
+            <tr><th>Maximum Crit DMG</th><td>{ numberWithCommas(critMin) }</td></tr>
+            <tr><th>Max # of hits</th><td>{ Math.ceil(hp / critMax) }</td></tr>
+            <tr><th>Min # of hits</th><td>{ Math.ceil(hp / critMin) }</td></tr>
+            <tr><th>Critical Hit Chance</th><td>{ basicDmg.crit.chance * 100 }%</td></tr>
           </tbody>
         </table>
-        <table>
-          <tbody>
-            <tr><th colspan="2">Character Accuracy</th></tr>
-            <tr><th>Accuracy</th><td>{ numberWithCommas(basicDmg.acc.acc) }</td></tr>
-            <tr><th>Req. 100% hitrate</th><td>{ numberWithCommas(basicDmg.acc.accToHit) }</td></tr>
-            <tr><th>Min. accuracy to hit mob</th><td>{ numberWithCommas(basicDmg.acc.minAcc) }</td></tr>
-            <tr><th>Hitrate</th><td>{ hitrate }%</td></tr>
-          </tbody>
-        </table>
+      }
+
+      dmgTable = <div className="dmg_container">
+        <h3>Character Damage</h3>
+        <div className="dmg_table">
+          <table>
+            <tbody>
+              <tr><th colSpan="2">Damage</th></tr>
+              <tr><th>Maximum DMG</th><td>{ numberWithCommas(basicDmg.max) }</td></tr>
+              <tr><th>Minimum DMG</th><td>{ numberWithCommas(basicDmg.min) }</td></tr>
+              <tr><th>Max # of hits</th><td>{ Math.ceil(hp / basicDmg.min) }</td></tr>
+              <tr><th>Min # of hits</th><td>{ Math.ceil(hp / basicDmg.max) }</td></tr>
+              { oneShotRate }
+            </tbody>
+          </table>
+          { critTable }
+          <table>
+            <tbody>
+              <tr><th colSpan="2">Accuracy</th></tr>
+              <tr><th>Character Accuracy</th><td>{ numberWithCommas(basicDmg.acc.acc) }</td></tr>
+              <tr><th>Req. 100% hitrate</th><td>{ numberWithCommas(basicDmg.acc.accToHit) }</td></tr>
+              <tr><th>Min. accuracy to hit mob</th><td>{ numberWithCommas(basicDmg.acc.minAcc) }</td></tr>
+              <tr><th>Hitrate</th><td>{ hitrate }%</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
+    }
+
+    let magicResistance = _.map(magic, (val, name) => {
+      if(val == -1 || val == 1) return null
+      return <li key={ name }><strong>{ capitalize(name) }</strong>{this.resistance(val)}</li>
+    }).filter(el => {
+      if(el == null) return false
+      return true
+    })
+
+    if(magicResistance.length == 0) {
+      magicResistance = <li>No Elemental Resistance</li>
     }
 
     return <div className="mob_container">
@@ -83,14 +128,7 @@ export default class MobCalculation extends Component {
             <div className="title">Element Resistance</div>
             <div className="resistance_wrap">
               <ul>
-                <li><strong>Fire</strong>{this.resistance(magic.fire)}</li>
-                <li><strong>Ice</strong>{this.resistance(magic.ice)}</li>
-                <li><strong>Holy</strong>{this.resistance(magic.holy)}</li>
-              </ul>
-              <ul>
-                <li><strong>Poison</strong>{this.resistance(magic.poison)}</li>
-                <li><strong>Lightning</strong>{this.resistance(magic.lightning)}</li>
-                <li><strong>Heal</strong>{this.resistance(magic.heal)}</li>
+                { magicResistance }
               </ul>
             </div>
           </div>
@@ -105,4 +143,8 @@ const numberWithCommas = x => {
   var parts = x.toString().split(".");
   parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   return parts.join(".");
+}
+
+const capitalize = string => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }

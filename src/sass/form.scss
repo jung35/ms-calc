@@ -12,6 +12,34 @@
     padding: 0;
     text-align: center;
   }
+
+  .tips {
+    font-size: 13px;
+    margin: 15px 0;
+    padding: 0 5px;
+    list-style: none;
+
+    &:before {
+      content: "Hints:";
+      display: block;
+      font-weight: bold;
+      margin: 0 0 5px;
+      font-size: 14px;
+    }
+
+    li {
+      padding: 0 0 5px;
+
+      strong {
+        margin: 0 5px 0 0;
+        vertical-align: middle;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
 }
 
 form {
@@ -19,6 +47,7 @@ form {
   max-width: 300px;
   margin: 0 auto;
   flex-wrap: wrap;
+  align-items: flex-end;
 
   .form_group {
     display: flex;

@@ -48,7 +48,7 @@ export default class FormInput extends Component {
     const { selectedJob, currentValues } = this.props
 
     if(selectedJob == undefined) return <div className="homeWelcome">
-      <h1>Maplestory v.62 Damage Calculator<br /><small>By buhbang</small></h1>
+      <h1>Maplestory v.62 Damage Calculator<br /><small>By buhbang (<a href="https://github.com/jung35/ms-calc" target="_blank">github</a>)</small></h1>
 <pre>{changeLog}</pre>
     </div>
 
@@ -63,7 +63,7 @@ export default class FormInput extends Component {
 
     return <div className="calculator">
       <div className="form_container">
-        <h3>Character Stats</h3>
+        <h3>Character Info</h3>
         <form>
           {_.map(selectedJob.form, (info, name) => {
             let formInput
@@ -96,6 +96,7 @@ export default class FormInput extends Component {
             </div>
           })}
         </form>
+        { selectedJob.tips }
       </div>
       { mobContainer } 
     </div>
