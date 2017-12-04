@@ -2,6 +2,7 @@ import _ from 'lodash'
 import React, { Component } from 'react'
 import MobSearch from './mobsearch'
 import MobCalculation from './mobcalculation'
+import changeLog from '../../../changelog.txt'
 
 import { queryString, Mobs } from '../Util'
 
@@ -45,7 +46,10 @@ export default class FormInput extends Component {
 
   render() {
     const { selectedJob } = this.props
-    if(selectedJob == undefined) return <div />
+    if(selectedJob == undefined) return <div className="homeWelcome">
+      <h1>Maplestory v.62 Damage Calculator<br /><small>By buhbang</small></h1>
+<pre>{changeLog}</pre>
+    </div>
 
     const params = _.map(selectedJob.form, (info, name) => {
       let queryStringValue = queryString(name) || undefined

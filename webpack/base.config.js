@@ -19,12 +19,14 @@ module.exports = {
         query: {
           presets: ['env','react']
         }
-      },
-      {
+      }, {
         test: /\.(png|svg|jpg|gif)$/,
         use: [{
           loader: 'file-loader'
         }]
+      }, {
+        test: /\.txt$/,
+        use: 'raw-loader'
       }
     ]
   }

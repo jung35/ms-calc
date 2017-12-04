@@ -14,6 +14,35 @@ html, body {
 
   & > div {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+  color: #212121;
+
+  small {
+    font-size: 0.5em;
+    color: #424242;
+  }
+}
+
+.homeWelcome {
+  flex: 1;
+  overflow: auto;
+
+  pre {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 3px;
   }
 }
 
