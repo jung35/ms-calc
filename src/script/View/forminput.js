@@ -66,6 +66,12 @@ export default class FormInput extends Component {
         <h3>Character Info</h3>
         <form>
           {_.map(selectedJob.form, (info, name) => {
+            if(info.preq != undefined) {
+              if(currentValues[info.preq.name] != info.preq.value) {
+                return null
+              }
+            }
+
             let formInput
             if(info.type == 'select') {
 

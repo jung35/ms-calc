@@ -16,6 +16,11 @@ export default class Magician {
       sharpEyesOptions.push({value: i, name: i})
     }
 
+    let numTargetOptions = [{value: 1, name: 1, selected: true}]
+    for(let i = 2; i <= 6; i++) {
+      numTargetOptions.push({value: i, name: i})
+    }
+
     this.form = {
       mob: {type: 'hidden', req: true},
       level: {
@@ -52,6 +57,29 @@ export default class Magician {
         ],
         req: true
       },
+      skillElement: {
+        label: 'Element of Skill',
+        type: 'select',
+        options: [
+          {value: 'none', name: 'No element', selected: true},
+          {value: 'fire', name: 'Fire'},
+          {value: 'poison', name: 'Poison'},
+          {value: 'ice', name: 'Ice'},
+          {value: 'lightning', name: 'Lightning'},
+          {value: 'holy', name: 'Holy'},
+          {value: 'heal', name: 'Heal'},
+          {value: 'dark', name: 'Dark'},
+        ]
+      },
+      numTarget: {
+        label: '# of Targets',
+        type: 'select',
+        options: numTargetOptions,
+        preq: {
+          name: 'skillElement',
+          value: 'heal'
+        }
+      },
       wandBonus: {
         label: 'Elemental Wand Bonus',
         type: 'select',
@@ -74,7 +102,8 @@ export default class Magician {
 
     this.values = {
       maMastery: 0.75,
-      wandBonus: 1.00
+      wandBonus: 1.00,
+      skillElement: 'none',
     }
 
     this.tips = <ul className="tips">
@@ -89,7 +118,7 @@ export default class Magician {
       if(this.form[formField].req && this.values[formField] == undefined) return {max: -1}
     }
 
-    let { level, int, luk, magic, skillMagic, maMastery, wandBonus, mob, sharpEyes } = this.values
+    let { level, int, luk, magic, skillMagic, maMastery, wandBonus, mob, sharpEyes, skillElement, numTarget } = this.values
 
     level = parseInt(level)
     int = parseInt(int)
@@ -107,6 +136,13 @@ export default class Magician {
 
     let max = ((eq1 + magic)/30 + eq2) * skillMagic * wandBonus
     let min = (eq3/30 + eq2) * skillMagic * wandBonus
+
+    if(skillElement == 'heal') {
+      if(numTarget == undefined) numTarget = 1
+      let targetMultiplier = (1.5 + 5/numTarget)
+      max = (int * 1.2 + luk) * magic / 1000 * targetMultiplier
+      min = (int * 0.3 + luk) * magic / 1000 * targetMultiplier
+    }
 
     // finished basic dmg calculation
     
@@ -138,6 +174,23 @@ export default class Magician {
 
       critIncrease = 1 + ((10 + sharpEyes) / 100)
       critIncrease = Math.max(1, Math.min(2, critIncrease))
+    }
+
+    if(skillElement != 'none') {
+      switch(selectedMob.magic[skillElement]) {
+        case 3:
+          max = 1
+          min = 1
+          break
+        case 2:
+          max /= 2
+          min /= 2
+          break
+        case 0:
+          max *= 1.5
+          min *= 1.5
+          break
+      }
     }
 
     return {
