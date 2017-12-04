@@ -190,6 +190,11 @@ export default class Magician {
           max *= 1.5
           min *= 1.5
           break
+        case -1:
+          if(skillElement == 'heal') {
+            max = 0
+            min = 0
+          }
       }
     }
 
