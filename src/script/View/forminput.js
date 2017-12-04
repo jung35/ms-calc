@@ -1,35 +1,21 @@
 import _ from 'lodash'
 import React, { Component } from 'react'
-import { queryString } from '../Util'
+import MobSearch from './mobsearch'
+import MobCalculation from './mobcalculation'
 
-import { Mobs } from '../Util'
+import { queryString, Mobs } from '../Util'
 
 export default class FormInput extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {
-      mobs: Mobs.list()
-    }
-
     this.formInputUpdate = this.formInputUpdate.bind(this)
-    this.search = this.search.bind(this)
-  }
 
-  selectMob(id) {
-    this.props.playerInputs([{name: 'mob', value: id}])
-    const mobElement = document.getElementById('form_mob')
-    mobElement.value = id
-  }
+    let jobQuery = queryString('mob')
+    this.state = {mob: jobQuery || null}
 
-  search(e) {
-    const value = e.target.value
-
-    if(value.length == 0) {
-      return this.setState({mobs: Mobs.list()})
-    }
-
-    return this.setState({mobs: Mobs.search(e.target.value)})
+    this.closeCalculation = this.closeCalculation.bind(this)
+    this.openCalculation = this.openCalculation.bind(this)
   }
 
   formInputUpdate(e) {
@@ -44,18 +30,22 @@ export default class FormInput extends Component {
       return true;
     })
 
-    console.log(params)
-
     this.props.playerInputs(params)
+  }
+
+  closeCalculation() {
+    this.props.playerInputs([{name: 'mob', value: null}])
+    this.setState({mob: null})
+  }
+
+  openCalculation(id) {
+    this.props.playerInputs([{name: 'mob', value: id}])
+    this.setState({mob: id})
   }
 
   render() {
     const { selectedJob } = this.props
     if(selectedJob == undefined) return <div />
-
-    const mobList = this.state.mobs.map(mob => {
-      return <div key={ mob.id } onClick={() => this.selectMob(mob.id)}>{ mob.name }</div>
-    })
 
     const params = _.map(selectedJob.form, (info, name) => {
       let queryStringValue = queryString(name) || undefined
@@ -69,12 +59,14 @@ export default class FormInput extends Component {
 
     this.props.playerInputs(params)
 
-    let mobContainer = <div className="mob_container">
-      <input type="text" placeholder="Search for mob" onChange={this.search}/>
-      <div className="mob_list">
-        { mobList }
-      </div>
-    </div>
+    let mobContainer = <MobSearch selectMob={this.openCalculation}/>
+
+    if(selectedJob.values.mob > 0) {
+      const selectedMob = Mobs.getMob(selectedJob.values.mob)
+      if(selectedMob != null) {
+        mobContainer = <MobCalculation goBack={this.closeCalculation} selectedJob={selectedJob}/>
+      }
+    }
 
     return <div className="calculator">
       <div className="form_container">
@@ -114,7 +106,7 @@ export default class FormInput extends Component {
           })}
         </form>
       </div>
-      { mobContainer }
+      { mobContainer } 
     </div>
   }
 }

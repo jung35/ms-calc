@@ -47,6 +47,10 @@ export default class View extends Component {
     if(job == undefined) return false
 
     _.map(data, field => {
+      if(field.value == null) {
+        delete job.values[field.name]
+        return false
+      }
       job.values[field.name] = field.value
     })
 

@@ -1,0 +1,95 @@
+.mob_container {
+  flex: 1;
+  position: relative;
+
+  input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    border-bottom: 10px solid #FAFAFA;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .mob_list {
+    position: absolute;
+    top: 58px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+
+    & > div {
+      padding: 10px 15px;
+      font-size: 14px;
+      border-bottom: 1px solid #FAFAFA;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.01)
+      }
+    }
+  }
+
+  .header {
+    border-bottom: 10px solid #FAFAFA;
+
+    .goback {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 19px;
+      color: #424242;
+      padding: 15px;
+      cursor: pointer;
+      display: inline-block;
+      border-right: 10px solid #FAFAFA;
+      vertical-align: middle;
+    }
+
+    .title {
+      display: inline;
+      vertical-align: middle;
+      padding: 0 0 0 15px;
+      font-weight: bold;
+    }
+  }
+  .about_mob {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 10px solid #FAFAFA;
+
+    .image_container {
+      padding: 15px 30px;
+
+      img {
+        width: 100%;
+        max-width: 150px;
+      }
+    }
+
+    .mob_data {
+      flex: 1;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0;
+      padding:0;
+
+      li {
+        padding: 5px 0;
+
+        strong {
+          display: inline-block;
+          width: 70px;
+          text-align: right;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+
+}

@@ -1,5 +1,7 @@
 import img from '../../assets/jobs/new_magician.png'
 
+import { Mobs } from '../Util'
+
 export default class Magician {
   constructor() {
     this.info = {
@@ -9,6 +11,7 @@ export default class Magician {
     }
 
     this.form = {
+      mob: {type: 'hidden'},
       level: {
         label: 'Level',
         type: 'number'
@@ -46,7 +49,6 @@ export default class Magician {
           {value: 1.10, name: '10% Bonus'}
         ]
       },
-      mob: {type: 'hidden'}
     }
 
     this.values = {
