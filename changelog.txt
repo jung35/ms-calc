@@ -1,3 +1,6 @@
 Change Log:
 
-- Nothing to log... still in development
+Dec. 04
+
+- Magician: Added formula for heal dmg
+- General: Added critical dmg table
