@@ -72,12 +72,18 @@
 
     .mob_data {
       flex: 1;
-      list-style: none;
       display: flex;
       justify-content: center;
-      flex-direction: column;
-      margin: 0;
-      padding:0;
+      align-items: center;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
 
       li {
         padding: 5px 0;
@@ -89,7 +95,42 @@
           margin: 0 10px 0 0;
         }
       }
+
+      .resistance {
+        flex: 1;
+
+        .title {
+          text-align: center;
+          font-weight: bold;
+          font-size: 16px;
+          margin: 0 0 15px;
+        }
+
+        .resistance_wrap {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+      }
     }
   }
 
+  .dmgTable {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    table {
+      // flex: 1;
+      margin: 0 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #eee;
+    }
+
+    th, td {
+      padding: 10px;
+    }
+  }
 }

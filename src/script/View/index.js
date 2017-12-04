@@ -12,14 +12,23 @@ export default class View extends Component {
     let jobQuery = queryString('job')
 
     this.state = {
-      job: undefined
+      job: undefined,
+      values: {}
     }
 
     if(jobQuery != null) {
       jobQuery = jobQuery.toLowerCase()
       for(let i = 0; i < jobList.length; i++) {
-        if(jobList[i].info.name.toLowerCase() == jobQuery) {
-          this.state = {job: jobList[i]}
+        const setJob = jobList[i]
+        if(setJob.info.name.toLowerCase() == jobQuery) {
+          let values = {}
+          for(let queryName in setJob.form) {
+            let queryValue = queryString(queryName)
+            if(queryValue == null) continue
+
+            values[queryName] = queryValue
+          }
+          this.state = {job: setJob, values: values}
           break
         }
       }
@@ -31,37 +40,36 @@ export default class View extends Component {
   }
 
   redoJobSelection() {
-    this.setState({ job: undefined })
-    updateQueryString(undefined)
+    this.setState({...this.state, job: undefined })
+    updateQueryString(this.state)
   }
 
   selectJob(job) {
     if(!job.info.enabled) return false
-    this.setState({ job })
-    updateQueryString(job)
+    this.setState({...this.state, job })
+    updateQueryString(this.state)
   }
 
   playerInputs(data) {
-    const { job } = this.state
-
-    if(job == undefined) return false
+    const { values } = this.state
 
     _.map(data, field => {
-      if(field.value == null) {
-        delete job.values[field.name]
+      if(field.value == null && values[field.name]) {
+        delete values[field.name]
         return false
       }
-      job.values[field.name] = field.value
+      values[field.name] = field.value
     })
 
-    updateQueryString(job)
+    this.setState({...this.state, values})
+    updateQueryString(this.state)
   }
 
   render() {
 
     return <div>
       <JobSelection jobList={jobList} selectedJob={this.state.job} selectJob={this.selectJob} redoJobSelection={this.redoJobSelection} />
-      <FormInput selectedJob={this.state.job} playerInputs={this.playerInputs} />
+      <FormInput selectedJob={this.state.job} currentValues={this.state.values} playerInputs={this.playerInputs} />
     </div>
   }
 }
@@ -70,9 +78,10 @@ const jobList = _.map(Jobs, obj => {
   return new obj()
 })
 
-const updateQueryString = job => {
+const updateQueryString = state => {
+  const { job, values } = state
   if(job == undefined) return window.history.pushState(null, null, `?`)
-  let query = _.map(job.values, (value, name) => {
+  let query = _.map(values, (value, name) => {
     return `&${name}=${value}`
   }).join('')
 

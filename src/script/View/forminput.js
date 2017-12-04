@@ -45,30 +45,19 @@ export default class FormInput extends Component {
   }
 
   render() {
-    const { selectedJob } = this.props
+    const { selectedJob, currentValues } = this.props
+
     if(selectedJob == undefined) return <div className="homeWelcome">
       <h1>Maplestory v.62 Damage Calculator<br /><small>By buhbang</small></h1>
 <pre>{changeLog}</pre>
     </div>
 
-    const params = _.map(selectedJob.form, (info, name) => {
-      let queryStringValue = queryString(name) || undefined
-      return {
-        name: name, value: queryStringValue
-      }
-    }).filter(data => {
-      if(data.value == undefined || data.value.length == 0) return false
-      return true;
-    }) || []
-
-    this.props.playerInputs(params)
-
     let mobContainer = <MobSearch selectMob={this.openCalculation}/>
 
-    if(selectedJob.values.mob > 0) {
-      const selectedMob = Mobs.getMob(selectedJob.values.mob)
+    if(currentValues.mob > 0) {
+      const selectedMob = Mobs.getMob(currentValues.mob)
       if(selectedMob != null) {
-        mobContainer = <MobCalculation goBack={this.closeCalculation} selectedJob={selectedJob}/>
+        mobContainer = <MobCalculation goBack={this.closeCalculation} selectedJob={selectedJob} currentValues={currentValues}/>
       }
     }
 
@@ -77,8 +66,6 @@ export default class FormInput extends Component {
         <h3>Character Stats</h3>
         <form>
           {_.map(selectedJob.form, (info, name) => {
-            let queryStringValue = queryString(name) || undefined
-
             let formInput
             if(info.type == 'select') {
 
@@ -90,13 +77,13 @@ export default class FormInput extends Component {
                 }
               }
 
-              formInput = <select id={ `form_${name}` } name={ name } defaultValue={queryStringValue || selectedValue} onChange={this.formInputUpdate} className="form_select">
+              formInput = <select id={ `form_${name}` } name={ name } defaultValue={currentValues[name] || selectedValue} onChange={this.formInputUpdate} className="form_select">
                 {info.options.map(option => {
                   return <option key={ option.value } value={ option.value }>{ option.name }</option>
                 })}
               </select>
             } else {
-              formInput = <input id={ `form_${name}` } type={ info.type } name={ name } onChange={this.formInputUpdate} className="form_input" defaultValue={queryStringValue} />
+              formInput = <input id={ `form_${name}` } type={ info.type } name={ name } onChange={this.formInputUpdate} className="form_input" defaultValue={currentValues[name]} />
             }
 
             if(info.type == 'hidden') {

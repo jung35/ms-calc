@@ -17,7 +17,8 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['env','react']
+          presets: ['env', 'react'],
+          plugins: ["transform-object-rest-spread"]
         }
       }, {
         test: /\.(png|svg|jpg|gif)$/,
