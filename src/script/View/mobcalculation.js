@@ -27,8 +27,8 @@ export default class MobCalculation extends Component {
         return 'strong'
       case 0:
         return 'weak'
-      default:
-        return '-'
+      default: // only heal will reach here
+        return 'immune'
     }
   }
 
@@ -95,7 +95,7 @@ export default class MobCalculation extends Component {
     }
 
     let magicResistance = _.map(magic, (val, name) => {
-      if(val == -1 || val == 1) return null
+      if(val == -1 && name != 'heal' || val == 1) return null
       return <li key={ name }><strong>{ capitalize(name) }</strong>{this.resistance(val)}</li>
     }).filter(el => {
       if(el == null) return false
