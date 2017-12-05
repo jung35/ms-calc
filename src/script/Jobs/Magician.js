@@ -1,5 +1,6 @@
 import img from '../../assets/jobs/new_magician.png'
 import React from 'react'
+import Skills from '../Skills/Magician'
 
 import { Mobs } from '../Util'
 
@@ -20,6 +21,10 @@ export default class Magician {
     for(let i = 2; i <= 6; i++) {
       numTargetOptions.push({value: i, name: i})
     }
+
+    const skillList = Skills.map(skill => {
+      return {value: skill.name.replace(' ', '-').toLowerCase(), name: skill.name, type: skill.type, levels: skill.values.length}
+    })
 
     this.form = {
       mob: {type: 'hidden', req: true},
@@ -43,41 +48,27 @@ export default class Magician {
         type: 'number',
         req: true
       },
-      skillMagic: {
-        label: 'Skill Magic Attack',
-        type: 'number',
+      skill: {
+        label: 'Skill',
+        type: 'select',
+        options: skillList,
         req: true
       },
-      maMastery: {
-        label: 'Skill Mastery',
+      skillLevel: {
+        label: 'Skill Level',
         type: 'select',
-        options: [
-          {value: 0.25, name: 'Initial (25%)'},
-          {value: 0.75, name: 'Maxed Skill (25% + 50%)', selected: true}
-        ],
-        req: true
-      },
-      skillElement: {
-        label: 'Element of Skill',
-        type: 'select',
-        options: [
-          {value: 'none', name: 'No element', selected: true},
-          {value: 'fire', name: 'Fire'},
-          {value: 'poison', name: 'Poison'},
-          {value: 'ice', name: 'Ice'},
-          {value: 'lightning', name: 'Lightning'},
-          {value: 'holy', name: 'Holy'},
-          {value: 'heal', name: 'Heal'},
-          {value: 'dark', name: 'Dark'},
-        ]
+        options: [],
+        preq: {
+          data: 'levels',
+        }
       },
       numTarget: {
         label: '# of Targets',
         type: 'select',
         options: numTargetOptions,
         preq: {
-          name: 'skillElement',
-          value: 'heal'
+          data: 'type',
+          equals: 'heal'
         }
       },
       wandBonus: {
@@ -101,47 +92,53 @@ export default class Magician {
     }
 
     this.values = {
-      maMastery: 0.75,
-      wandBonus: 1.00,
-      skillElement: 'none',
+      wandBonus: 1.00
     }
 
     this.tips = <ul className="tips">
       <li><strong>Total Magic</strong><img src={require('../../assets/magician_tips/tma.png')} alt="total magic"/></li>
-      <li><strong>Skill Magic Attack</strong><img src={require('../../assets/magician_tips/matt.png')} alt="skill magic"/></li>
-      <li><strong>Skill Mastery</strong><img src={require('../../assets/magician_tips/mastery.png')} alt="skill magic"/></li>
     </ul>
   }
 
   damage() {
     for(let formField in this.form) {
-      if(this.form[formField].req && this.values[formField] == undefined) return {max: -1}
+      if(this.form[formField].preq == undefined && this.form[formField].req && this.values[formField] == undefined) return {max: -1}
     }
 
-    let { level, int, luk, magic, skillMagic, maMastery, wandBonus, mob, sharpEyes, skillElement, numTarget } = this.values
+    let { level, int, luk, magic, skill, skillLevel, wandBonus, mob, sharpEyes, numTarget } = this.values
 
     level = parseInt(level)
     int = parseInt(int)
     luk = parseInt(luk)
     magic = parseInt(magic)
-    skillMagic = parseFloat(skillMagic)
-    maMastery = parseFloat(maMastery)
+    skillLevel = parseFloat(skillLevel)
     wandBonus = parseFloat(wandBonus)
     mob = parseInt(mob)
     sharpEyes = parseInt(sharpEyes)
 
-    let eq1 = ((magic ** 2) / 1000)
-    let eq2 = int / 200
-    let eq3 = eq1 + (magic * maMastery * 0.9)
+    let skillInfo = Skills.find(x => x.name.replace(' ', '-').toLowerCase() == skill)
+    if(skillInfo == undefined) return {max: -1}
+    let skillValue = skillInfo.values[skillLevel - 1]
+    if(skillValue == undefined) return {max: -1}
+
+    let skillMagic = skillValue.skillMagic
+    let skillElement = skillInfo.type
+
+    let mastery = (15 + 5 * Math.floor((skillLevel - 1) / (skillInfo.values.length / 10.0))) / 100.0
+
+    let eq1 = ((magic ** 2) / 1000.0)
+    let eq2 = int / 200.0
+    let eq3 = eq1 + (magic * mastery * 0.9)
 
     let max = ((eq1 + magic)/30 + eq2) * skillMagic * wandBonus
     let min = (eq3/30 + eq2) * skillMagic * wandBonus
 
     if(skillElement == 'heal') {
       if(numTarget == undefined) numTarget = 1
-      let targetMultiplier = (1.5 + 5/numTarget)
-      max = (int * 1.2 + luk) * magic / 1000 * targetMultiplier
-      min = (int * 0.3 + luk) * magic / 1000 * targetMultiplier
+      let targetMultiplier = (1.5 + 5 / numTarget)
+      let dmgMultiplier = skillValue.dmgMultiplier
+      max = (int * 1.2 + luk) * magic / 1000 * targetMultiplier * dmgMultiplier
+      min = (int * 0.3 + luk) * magic / 1000 * targetMultiplier * dmgMultiplier
     }
 
     // finished basic dmg calculation

@@ -49,7 +49,7 @@ export default class FormInput extends Component {
 
     if(selectedJob == undefined) return <div className="homeWelcome">
       <h1>MapleSaga Damage Calculator<br /><small>By buhbang (<a href="https://github.com/jung35/ms-calc" target="_blank">github</a>)</small></h1>
-<pre>{changeLog}</pre>
+<pre>{changeLog}</pre> 
     </div>
 
     let mobContainer = <MobSearch selectMob={this.openCalculation}/>
@@ -61,14 +61,28 @@ export default class FormInput extends Component {
       }
     }
 
+    const skillList = selectedJob.form.skill.options
+
     return <div className="calculator">
       <div className="form_container">
         <h3>Character Info</h3>
         <form>
           {_.map(selectedJob.form, (info, name) => {
             if(info.preq != undefined) {
-              if(currentValues[info.preq.name] != info.preq.value) {
+              if(currentValues['skill'] == undefined) return null
+              const dataSet = skillList.find(x => x.name.replace(' ', '-').toLowerCase() == currentValues['skill'])
+
+              if(dataSet == undefined || (info.preq.equals != undefined && info.preq.equals != dataSet[info.preq.data])) {
                 return null
+              }
+
+              if(info.preq.equals == undefined) {
+                info.options = []
+                for(let i = 1; i <= dataSet[info.preq.data]; i++) {
+                  info.options.push({value: i, name: i})
+                }
+
+                info.options[info.options.length - 1].selected = true
               }
             }
 

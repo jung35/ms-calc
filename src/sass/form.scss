@@ -6,6 +6,8 @@
 .form_container {
   padding: 30px 15px;
   border-right: 10px solid #FAFAFA;
+  overflow: auto;
+  max-width: 300px;
 
   h3 {
     margin: 0 0 20px;
@@ -29,10 +31,10 @@
 
     li {
       padding: 0 0 5px;
+      line-height: 150%;
 
       strong {
         margin: 0 5px 0 0;
-        vertical-align: middle;
       }
 
       img {
@@ -44,7 +46,6 @@
 
 form {
   display: flex;
-  max-width: 300px;
   margin: 0 auto;
   flex-wrap: wrap;
   align-items: flex-end;

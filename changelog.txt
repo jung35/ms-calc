@@ -1,6 +1,8 @@
 Change Log:
+Dec. 05
+- General: Removed options to fill in skill info and added skills
 
 Dec. 04
-
 - Magician: Added formula for heal dmg
 - General: Added critical dmg table
+- General: Updated Skill Mastery (accidently used post big bang formula for this)
