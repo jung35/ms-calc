@@ -40,13 +40,15 @@ export default class View extends Component {
   }
 
   redoJobSelection() {
-    this.setState({...this.state, job: undefined })
+    this.state = {...this.state, job: undefined}
+    this.setState(this.state)
     updateQueryString(this.state)
   }
 
   selectJob(job) {
     if(!job.info.enabled) return false
-    this.setState({...this.state, job })
+    this.state = {...this.state, job }
+    this.setState(this.state)
     updateQueryString(this.state)
   }
 
@@ -61,7 +63,9 @@ export default class View extends Component {
       values[field.name] = field.value
     })
 
-    this.setState({...this.state, values})
+    this.state = {...this.state, values}
+
+    this.setState(this.state)
     updateQueryString(this.state)
   }
 
