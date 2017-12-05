@@ -103,6 +103,36 @@ h1 {
   &.selected {
     padding: 15px 0;
     cursor: pointer;
+    position: relative;
+
+    &:before {
+      content: "Back";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 100%;
+      text-align: center;
+      margin: auto;
+      z-index: 999;
+      color: rgba(255, 255, 255, 0);
+      background: rgba(255, 255, 255, 0);
+      transition: color 180ms linear, background 180ms linear;
+    }
+
+    &:hover {
+      &:before {
+        background: rgba(255, 255, 255, 0.3);
+        color: #333;
+      }
+
+      li {
+        opacity: .5;
+      }
+    }
 
     li {
       max-width: 50px;
