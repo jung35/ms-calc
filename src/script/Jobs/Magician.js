@@ -101,8 +101,30 @@ export default class Magician {
   }
 
   damage() {
+    let { level, int, luk, magic, skill, skillLevel, wandBonus, mob, sharpEyes, numTarget } = this.getFormValues()
+    if(skill == undefined) return {max: -1} // not all fields filled out or invalid options from select boxes
+
+    let mastery = (15 + 5 * Math.floor((skillLevel - 1) / (skill.values.length / 10.0))) / 100.0
+
+    // start basic dmg calculations
+    let dmg = this.basicDmgCalc(int, magic, mastery, skill, wandBonus, numTarget) // {min, max}
+    // add in mob defense (for mages, it would be magic defense)
+    dmg = this.mobDefCalc(dmg, mob, level)
+    let { min, max } = this.dmgApplyLimit(dmg, skill, mob) // finished dmg calculation
+    
+    let acc = this.hitAccuracy(int, luk, mob, level)
+
+    let crit = this.critCalc(sharpEyes)
+
+    return {
+      max, min, acc, crit
+    }
+  }
+
+  getFormValues() {
     for(let formField in this.form) {
-      if(this.form[formField].preq == undefined && this.form[formField].req && this.values[formField] == undefined) return {max: -1}
+      // check required fields
+      if(this.form[formField].preq == undefined && this.form[formField].req && this.values[formField] == undefined) return {}
     }
 
     let { level, int, luk, magic, skill, skillLevel, wandBonus, mob, sharpEyes, numTarget } = this.values
@@ -116,65 +138,57 @@ export default class Magician {
     mob = parseInt(mob)
     sharpEyes = parseInt(sharpEyes)
 
-    let skillInfo = Skills.find(x => x.name.replace(' ', '-').toLowerCase() == skill)
-    if(skillInfo == undefined) return {max: -1}
-    let skillValue = skillInfo.values[skillLevel - 1]
-    if(skillValue == undefined) return {max: -1}
+    skill = Skills.find(x => x.name.replace(' ', '-').toLowerCase() == skill)
+    if(skill == undefined) return {}
+    if(skill.values[skillLevel - 1] == undefined) return {}
+    skill.data = skill.values[skillLevel - 1]
 
-    let skillMagic = skillValue.skillMagic
-    let skillElement = skillInfo.type
 
-    let mastery = (15 + 5 * Math.floor((skillLevel - 1) / (skillInfo.values.length / 10.0))) / 100.0
+    mob = Mobs.getMob(mob)
+
+    return { level, int, luk, magic, skill, skillLevel, wandBonus, mob, sharpEyes, numTarget }
+  }
+
+  basicDmgCalc(int, magic, mastery, skill, wandBonus, numTarget) {
+    let skillMagic = skill.data.skillMagic
+    let skillElement = skill.type
 
     let eq1 = ((magic ** 2) / 1000.0)
     let eq2 = int / 200.0
     let eq3 = eq1 + (magic * mastery * 0.9)
 
-    let max = ((eq1 + magic)/30 + eq2) * skillMagic * wandBonus
-    let min = (eq3/30 + eq2) * skillMagic * wandBonus
+    let max = ((eq1 + magic) / 30 + eq2) * skillMagic * wandBonus
+    let min = (eq3 / 30 + eq2) * skillMagic * wandBonus
 
     if(skillElement == 'heal') {
-      if(numTarget == undefined) numTarget = 1
-      let targetMultiplier = (1.5 + 5 / numTarget)
-      let dmgMultiplier = skillValue.dmgMultiplier
+      if(numTarget == undefined || numTarget == null) numTarget = 1
+      let targetMultiplier = 1.5 + 5 / numTarget
+      let dmgMultiplier = skill.data.dmgMultiplier
+
       max = (int * 1.2 + luk) * magic / 1000 * targetMultiplier * dmgMultiplier
       min = (int * 0.3 + luk) * magic / 1000 * targetMultiplier * dmgMultiplier
     }
 
-    // finished basic dmg calculation
+    return { min, max }
+  }
+
+  mobDefCalc(dmg, mob, level) {
+    let { min, max } = dmg
     
-    let selectedMob = Mobs.getMob(mob)
-    let lvDiff = selectedMob.level - level
-    if(lvDiff < 0) lvDiff = 0
+    let lvDiff = Math.max(0, mob.level - level)
 
-    max = max - selectedMob.def.magic * 0.5 * (1 + 0.01 * lvDiff)
-    min = min - selectedMob.def.magic * 0.6 * (1 + 0.01 * lvDiff)
+    max = max - mob.def.magic * 0.5 * (1 + 0.01 * lvDiff)
+    min = min - mob.def.magic * 0.6 * (1 + 0.01 * lvDiff)
 
-    // finished mob defense calc
-    
-    let accToHit = (selectedMob.avoid + 1) * (1 + lvDiff / 24)
-    let acc = Math.trunc(int / 10) + Math.trunc(luk / 10)
-    let minAcc = accToHit * 10 / 24
+    return { min, max }
+  }
 
-    max = Math.max(0, Math.floor(max))
-    min = Math.max(0, Math.floor(min))
+  dmgApplyLimit(dmg, skill, mob) {
+    let { min, max } = dmg
 
-    acc = Math.floor(acc)
-    minAcc = Math.floor(minAcc)
-    accToHit = Math.floor(accToHit)
-
-    let critChance = 0
-    let critIncrease = 0
-    if(sharpEyes > 0) {
-      critChance = Math.ceil(sharpEyes / 2) / 100
-      critChance = Math.max(0, Math.min(1, critChance))
-
-      critIncrease = 1 + ((10 + sharpEyes) / 100)
-      critIncrease = Math.max(1, Math.min(2, critIncrease))
-    }
-
+    let skillElement = skill.type
     if(skillElement != 'none') {
-      switch(selectedMob.magic[skillElement]) {
+      switch(mob.magic[skillElement]) {
         case 3:
           max = 1
           min = 1
@@ -199,15 +213,41 @@ export default class Magician {
       }
     }
 
-    return {
-      max, min,
-      acc: {
-        acc, minAcc, accToHit
-      },
-      crit: {
-        chance: critChance,
-        increase: critIncrease
-      }
+
+    min = Math.max(0, Math.floor(min))
+    max = Math.max(0, Math.floor(max))
+
+    max = Math.min(199999, max)
+    min = Math.min(199999, min)
+
+    return { min, max }
+  }
+
+  hitAccuracy(int, luk, mob, level) {
+    let lvDiff = Math.max(0, mob.level - level)
+    let accToHit = (mob.avoid + 1) * (1 + lvDiff / 24)
+    let acc = Math.trunc(int / 10) + Math.trunc(luk / 10)
+    let minAcc = accToHit * 10 / 24
+
+    acc = Math.max(0, Math.floor(acc))
+    accToHit = Math.max(0, Math.floor(accToHit))
+    minAcc = Math.max(0, Math.floor(minAcc))
+    
+
+    return { acc, accToHit, minAcc }
+  }
+
+  critCalc(sharpEyes) {
+    let chance = 0
+    let increase = 0
+    if(sharpEyes > 0) {
+      chance = Math.ceil(sharpEyes / 2) / 100
+      chance = Math.max(0, Math.min(1, chance))
+
+      increase = 1 + ((10 + sharpEyes) / 100)
+      increase = Math.max(1, Math.min(2, increase))
     }
+
+    return { chance, increase }
   }
 }
